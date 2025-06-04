@@ -1,0 +1,32 @@
+{
+  "session_id": "20250514083122",
+  "start_time": "2025-05-14T08:31:22.674326",
+  "documents": [
+    {
+      "document_id": "247eb5",
+      "timestamp": "2025-05-14T08:31:32.426497",
+      "model": "prebuilt-layout",
+      "pages": 1,
+      "size_kb": 284.03,
+      "success": true,
+      "estimated_cost": 0.05,
+      "session_id": "20250514083122",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    },
+    {
+      "document_id": "4d0717",
+      "timestamp": "2025-05-14T08:35:07.650951",
+      "model": "prebuilt-layout",
+      "pages": 1,
+      "size_kb": 412.53,
+      "success": true,
+      "estimated_cost": 0.05,
+      "session_id": "20250514083122",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    }
+  ]
+}

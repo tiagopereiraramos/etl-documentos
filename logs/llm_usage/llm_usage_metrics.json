@@ -1,0 +1,18 @@
+{
+  "total_calls": 22,
+  "total_input_tokens": 25875,
+  "total_output_tokens": 93,
+  "total_tokens": 25968,
+  "success_calls": 22,
+  "failed_calls": 0,
+  "models_used": {
+    "gpt-4.1-mini": {
+      "count": 22,
+      "input_tokens": 25875,
+      "output_tokens": 93
+    }
+  },
+  "estimated_cost": 0.7818299999999999,
+  "calls_log": "1 chamadas",
+  "last_update": "2025-05-27T15:45:12.333987"
+}

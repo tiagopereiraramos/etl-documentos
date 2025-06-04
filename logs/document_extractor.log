@@ -1,0 +1,809 @@
+2025-05-14 09:07:21.639 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:07:21.648 | INFO     | __main__:60 | Iniciando servidor em 0.0.0.0:8000
+2025-05-14 09:07:27.863 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:07:27.893 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:07:27.900 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:07:27.901 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:07:45.151 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 09:07:45.153 | DEBUG    | classification.classifier:187 | Usando 1841 caracteres para classificação
+2025-05-14 09:07:45.155 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1187 tokens estimados
+2025-05-14 09:07:46.813 | SUCCESS  | classification.classifier:242 | Documento classificado como: Cartão CNPJ em 1.658s
+2025-05-14 09:07:51.635 | DEBUG    | api.routes:220 | Dados extraídos com sucesso para tipo Cartão CNPJ
+2025-05-14 09:07:52.957 | INFO     | api.routes:246 | Documento armazenado com ID: 5208216c-444a-4a59-9d07-0c85c4af6d0a
+2025-05-14 09:07:52.958 | SUCCESS  | api.routes:261 | Documento processado com sucesso em 0:00:21.647982
+2025-05-14 09:10:13.485 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:10:13.493 | INFO     | __main__:60 | Iniciando servidor em 0.0.0.0:8000
+2025-05-14 09:10:18.746 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:10:18.776 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:10:18.783 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:10:18.783 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:10:31.641 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 09:10:31.642 | DEBUG    | classification.classifier:187 | Usando 1841 caracteres para classificação
+2025-05-14 09:10:31.644 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1187 tokens estimados
+2025-05-14 09:10:34.407 | SUCCESS  | classification.classifier:242 | Documento classificado como: Cartão CNPJ em 2.763s
+2025-05-14 09:10:39.332 | DEBUG    | api.routes:220 | Dados extraídos com sucesso para tipo Cartão CNPJ
+2025-05-14 09:10:40.889 | INFO     | api.routes:246 | Documento armazenado com ID: 16cbb089-5f13-4d38-bda9-b10b549e65ca
+2025-05-14 09:10:40.889 | SUCCESS  | api.routes:261 | Documento processado com sucesso em 0:00:21.918873
+2025-05-14 09:11:43.204 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:11:43.234 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:11:43.241 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:11:43.241 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:11:56.073 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 09:11:56.074 | DEBUG    | classification.classifier:187 | Usando 1841 caracteres para classificação
+2025-05-14 09:11:56.075 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1187 tokens estimados
+2025-05-14 09:11:57.593 | SUCCESS  | classification.classifier:242 | Documento classificado como: Cartão CNPJ em 1.517s
+2025-05-14 09:12:01.668 | DEBUG    | api.routes:220 | Dados extraídos com sucesso para tipo Cartão CNPJ
+2025-05-14 09:12:03.318 | INFO     | api.routes:246 | Documento armazenado com ID: 090bc115-6fbb-4961-a052-ceac0e7fcddb
+2025-05-14 09:12:03.319 | SUCCESS  | api.routes:261 | Documento processado com sucesso em 0:00:20.073605
+2025-05-14 09:16:35.315 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 09:16:42.042 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:16:42.072 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:16:42.079 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:16:42.079 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:17:48.193 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 09:17:53.596 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:17:53.625 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:17:53.632 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:17:53.632 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:20:38.595 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 09:20:44.079 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:20:44.108 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:20:44.114 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:20:44.114 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:23:49.876 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 09:23:55.257 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:23:55.286 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:23:55.294 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:23:55.294 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:25:36.834 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 09:25:42.364 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:25:42.393 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:25:42.400 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:25:42.400 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:26:16.577 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 09:26:21.985 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:26:22.014 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:26:22.021 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:26:22.021 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:31:18.270 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 09:31:23.865 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:31:23.894 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:31:23.901 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:31:23.901 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:31:44.438 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 09:31:49.827 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:31:49.855 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 09:31:49.863 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 09:31:49.863 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 09:33:42.635 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 09:33:42.635 | DEBUG    | classification.classifier:187 | Usando 1120 caracteres para classificação
+2025-05-14 09:33:42.635 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1006 tokens estimados
+2025-05-14 09:33:43.971 | SUCCESS  | classification.classifier:242 | Documento classificado como: Comprovante Bancário em 1.335s
+2025-05-14 09:33:46.727 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo Comprovante Bancário
+2025-05-14 09:33:47.978 | INFO     | api.routes:245 | Documento armazenado com ID: 59148b68-42cc-4d75-81dd-f55a8ab4edd6
+2025-05-14 09:33:47.978 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:11.289046
+2025-05-14 09:35:41.214 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 09:35:41.215 | DEBUG    | classification.classifier:187 | Usando 2000 caracteres para classificação
+2025-05-14 09:35:41.215 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1226 tokens estimados
+2025-05-14 09:35:42.242 | SUCCESS  | classification.classifier:242 | Documento classificado como: Contrato Social em 1.027s
+2025-05-14 09:35:50.439 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo Contrato Social
+2025-05-14 09:35:54.529 | INFO     | api.routes:245 | Documento armazenado com ID: 036d827c-2cd4-4dda-848b-f91b5981665d
+2025-05-14 09:35:54.529 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:49.173604
+2025-05-14 09:43:39.171 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 09:43:39.173 | DEBUG    | classification.classifier:187 | Usando 1828 caracteres para classificação
+2025-05-14 09:43:39.175 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1183 tokens estimados
+2025-05-14 09:43:40.742 | SUCCESS  | classification.classifier:242 | Documento classificado como: Nota Fiscal de Serviços Eletrônica em 1.566s
+2025-05-14 09:43:48.265 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo Nota Fiscal de Serviços Eletrônica
+2025-05-14 09:43:49.410 | INFO     | api.routes:245 | Documento armazenado com ID: b74a8c3d-81ce-4968-8764-b2776a0754aa
+2025-05-14 09:43:49.411 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:12.597190
+2025-05-14 09:44:41.436 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 09:44:41.436 | DEBUG    | classification.classifier:187 | Usando 2000 caracteres para classificação
+2025-05-14 09:44:41.436 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1226 tokens estimados
+2025-05-14 09:44:43.476 | SUCCESS  | classification.classifier:242 | Documento classificado como: CNH em 2.040s
+2025-05-14 09:44:47.517 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo CNH
+2025-05-14 09:44:48.045 | INFO     | api.routes:245 | Documento armazenado com ID: a0a6f730-df1d-4026-9f47-0cf15099c290
+2025-05-14 09:44:48.045 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:23.969738
+2025-05-14 10:25:57.929 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 10:25:57.937 | INFO     | __main__:60 | Iniciando servidor em 0.0.0.0:8000
+2025-05-14 10:26:03.317 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 10:26:03.346 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 10:26:03.354 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 10:26:03.354 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 10:26:15.541 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 10:26:15.541 | DEBUG    | classification.classifier:187 | Usando 914 caracteres para classificação
+2025-05-14 10:26:15.541 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 955 tokens estimados
+2025-05-14 10:26:16.731 | SUCCESS  | classification.classifier:242 | Documento classificado como: CNH em 1.190s
+2025-05-14 10:26:21.321 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo CNH
+2025-05-14 10:26:24.704 | INFO     | api.routes:245 | Documento armazenado com ID: 34679a9a-957d-4cd7-851b-19023d57ee9c
+2025-05-14 10:26:24.705 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:16.479381
+2025-05-14 13:28:57.511 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 13:29:44.361 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 13:29:44.392 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 13:29:44.399 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 13:29:44.399 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 13:35:37.042 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 13:35:37.095 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 13:35:37.108 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 13:35:37.109 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 13:38:27.149 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 13:38:33.398 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 13:38:33.427 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 13:38:33.434 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 13:38:33.434 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 13:39:09.760 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 13:39:09.760 | DEBUG    | classification.classifier:187 | Usando 914 caracteres para classificação
+2025-05-14 13:39:09.761 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 955 tokens estimados
+2025-05-14 13:39:10.912 | SUCCESS  | classification.classifier:242 | Documento classificado como: CNH em 1.151s
+2025-05-14 13:39:15.353 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo CNH
+2025-05-14 13:39:16.060 | INFO     | api.routes:245 | Documento armazenado com ID: ea70be76-a250-4f8c-9334-8bb2f0488092
+2025-05-14 13:39:16.060 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:13.160119
+2025-05-14 13:40:19.004 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 13:40:19.005 | DEBUG    | classification.classifier:187 | Usando 2000 caracteres para classificação
+2025-05-14 13:40:19.006 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1226 tokens estimados
+2025-05-14 13:40:20.130 | SUCCESS  | classification.classifier:242 | Documento classificado como: Fatura Telefônica em 1.124s
+2025-05-14 13:40:24.818 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo Fatura Telefônica
+2025-05-14 13:40:25.814 | INFO     | api.routes:245 | Documento armazenado com ID: d008a97f-3653-43cb-a830-4d9686a4dcf3
+2025-05-14 13:40:25.815 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:28.366915
+2025-05-14 13:41:37.564 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 13:41:37.565 | DEBUG    | classification.classifier:187 | Usando 1828 caracteres para classificação
+2025-05-14 13:41:37.565 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1183 tokens estimados
+2025-05-14 13:41:41.216 | SUCCESS  | classification.classifier:242 | Documento classificado como: Nota Fiscal de Serviços Eletrônica em 3.650s
+2025-05-14 13:41:51.217 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo Nota Fiscal de Serviços Eletrônica
+2025-05-14 13:41:54.687 | INFO     | api.routes:245 | Documento armazenado com ID: 1559aeb0-12e7-4abd-9e78-8cbb24cf79f1
+2025-05-14 13:41:54.688 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:18.281857
+2025-05-14 13:42:13.659 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 13:42:13.660 | DEBUG    | classification.classifier:187 | Usando 1752 caracteres para classificação
+2025-05-14 13:42:13.660 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1164 tokens estimados
+2025-05-14 13:42:14.529 | SUCCESS  | classification.classifier:242 | Documento classificado como: Nota Fiscal de Serviços Eletrônica em 0.869s
+2025-05-14 13:42:21.480 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo Nota Fiscal de Serviços Eletrônica
+2025-05-14 13:42:22.334 | INFO     | api.routes:245 | Documento armazenado com ID: 35fef728-c1b5-4558-9d36-70b8fcf23227
+2025-05-14 13:42:22.335 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:09.636098
+2025-05-14 13:43:17.017 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 13:43:17.019 | DEBUG    | classification.classifier:187 | Usando 1841 caracteres para classificação
+2025-05-14 13:43:17.021 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1187 tokens estimados
+2025-05-14 13:43:17.980 | SUCCESS  | classification.classifier:242 | Documento classificado como: Cartão CNPJ em 0.959s
+2025-05-14 13:43:24.247 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo Cartão CNPJ
+2025-05-14 13:43:25.208 | INFO     | api.routes:245 | Documento armazenado com ID: 955cc950-9390-433c-b55e-3553702d02fa
+2025-05-14 13:43:25.208 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:19.588247
+2025-05-14 13:51:45.945 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 13:51:45.946 | DEBUG    | classification.classifier:187 | Usando 2000 caracteres para classificação
+2025-05-14 13:51:45.948 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1226 tokens estimados
+2025-05-14 13:51:47.012 | SUCCESS  | classification.classifier:242 | Documento classificado como: CNH em 1.063s
+2025-05-14 13:51:51.608 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo CNH
+2025-05-14 13:51:52.081 | INFO     | api.routes:245 | Documento armazenado com ID: dad02344-6b0b-46c3-b85b-22f9c801321b
+2025-05-14 13:51:52.082 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:28.139286
+2025-05-14 13:53:05.937 | INFO     | classification.classifier:183 | Classificando documento...
+2025-05-14 13:53:05.938 | DEBUG    | classification.classifier:187 | Usando 2000 caracteres para classificação
+2025-05-14 13:53:05.939 | DEBUG    | classification.classifier:205 | Enviando prompt com aproximadamente 1226 tokens estimados
+2025-05-14 13:53:06.923 | SUCCESS  | classification.classifier:242 | Documento classificado como: Fatura Telefônica em 0.983s
+2025-05-14 13:53:12.976 | DEBUG    | api.routes:219 | Dados extraídos com sucesso para tipo Fatura Telefônica
+2025-05-14 13:53:14.271 | INFO     | api.routes:245 | Documento armazenado com ID: 05349bd3-2374-4740-a2f7-55ea0ba4a0e6
+2025-05-14 13:53:14.272 | SUCCESS  | api.routes:260 | Documento processado com sucesso em 0:00:37.062901
+2025-05-14 14:07:07.296 | WARNING  | main:31 | ========== Aplicação encerrada ==========
+2025-05-14 14:07:14.395 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 14:07:14.425 | SUCCESS  | utils.logging:69 | Sistema de logging inicializado com sucesso!
+2025-05-14 14:07:14.432 | SUCCESS  | main:25 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 14:07:14.432 | INFO     | main:26 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 14:59:11.163 | SUCCESS  | utils.logging:117 | Sistema de logging unificado inicializado com sucesso!
+2025-05-14 14:59:11.172 | INFO     | __main__:63 | Iniciando servidor em 0.0.0.0:8000
+2025-05-14 14:59:17.462 | SUCCESS  | utils.logging:117 | Sistema de logging unificado inicializado com sucesso!
+2025-05-14 14:59:17.473 | DEBUG    | logging:1706 | Using selector: KqueueSelector
+2025-05-14 14:59:17.495 | SUCCESS  | utils.logging:117 | Sistema de logging unificado inicializado com sucesso!
+2025-05-14 14:59:17.501 | INFO     | logging:1706 | Started server process [91611]
+2025-05-14 14:59:17.501 | INFO     | logging:1706 | Waiting for application startup.
+2025-05-14 14:59:17.502 | SUCCESS  | main:28 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 14:59:17.502 | INFO     | main:29 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 14:59:17.502 | INFO     | logging:1706 | Application startup complete.
+2025-05-14 15:00:09.673 | DEBUG    | logging:1706 | Calling on_part_begin with no data
+2025-05-14 15:00:09.673 | DEBUG    | logging:1706 | Calling on_header_field with data[42:61]
+2025-05-14 15:00:09.673 | DEBUG    | logging:1706 | Calling on_header_value with data[63:140]
+2025-05-14 15:00:09.673 | DEBUG    | logging:1706 | Calling on_header_end with no data
+2025-05-14 15:00:09.673 | DEBUG    | logging:1706 | Calling on_header_field with data[142:154]
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_header_value with data[156:166]
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_header_end with no data
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_headers_finished with no data
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_part_data with data[170:177659]
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_part_end with no data
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_part_begin with no data
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_header_field with data[177703:177722]
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_header_value with data[177724:177752]
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_header_end with no data
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_headers_finished with no data
+2025-05-14 15:00:09.674 | DEBUG    | logging:1706 | Calling on_part_end with no data
+2025-05-14 15:00:09.675 | DEBUG    | logging:1706 | Calling on_end with no data
+2025-05-14 15:00:09.676 | INFO     | utils.document_logging:89 | 🌐 API POST | Endpoint: /extract | ID: f3b416 | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg
+2025-05-14 15:00:09.676 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: f3b416 | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg 
+2025-05-14 15:00:09.676 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: 58e57a | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg | Tipo: jpeg
+2025-05-14 15:00:09.676 | INFO     | ocr.document_processor:155 | Iniciando extração de texto | ID: 58e57a | Arquivo: WhatsApp Image 2025-05-14 at 10.25.10.jpeg | Tamanho: 173.3KB
+2025-05-14 15:00:09.677 | INFO     | ocr.document_processor:534 | Analisando documento | ID: 024124 | Extensão: jpeg | Tamanho: 173.3KB
+2025-05-14 15:00:09.691 | INFO     | ocr.document_processor:602 | Imagem analisada | ID: 024124 | Dimensões: 900x1600 | Qualidade: 0.72
+2025-05-14 15:00:09.691 | INFO     | ocr.document_processor:623 | Documento analisado em 0.014s | ID: 024124 | Tipo: image | Qualidade: 0.725
+2025-05-14 15:00:09.692 | DEBUG    | ocr.document_processor:171 | Arquivo temporário criado: /var/folders/yw/5nzky279361g2yr3y70jzrz40000gn/T/tmp82uhbn38.jpeg
+2025-05-14 15:00:09.692 | DEBUG    | ocr.document_processor:739 | Qualidade suficiente, aplicando processamento leve | ID: 58e57a
+2025-05-14 15:00:09.809 | INFO     | ocr.document_processor:180 | Pré-processamento de imagem concluído em 0.118s
+2025-05-14 15:00:09.810 | INFO     | ocr.document_processor:189 | Priorizando Azure devido à Extensão prioritária para Azure (.jpeg)
+2025-05-14 15:00:09.810 | WARNING  | utils.document_logging:35 | 🔵 AZURE API | ID: 58e57a | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg  | Serviço: Document Intelligence | Motivo: Extensão prioritária para Azure (.jpeg)
+2025-05-14 15:00:09.810 | INFO     | ocr.document_processor:335 | Pulando Docling conforme configuração | ID: 58e57a
+2025-05-14 15:00:09.810 | WARNING  | utils.document_logging:35 | 🔵 AZURE API | ID: 58e57a | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg  | Serviço: Document Intelligence 
+2025-05-14 15:00:09.810 | INFO     | ocr.document_processor:642 | Iniciando extração com Azure | ID: 58e57a
+2025-05-14 15:00:09.811 | INFO     | utils.azure_tracker:208 | 🔵 AZURE prebuilt-layout | sucesso | document_intelligence | Doc: 58e57a | 1 página(s) | 0.43MB | $0.0050
+2025-05-14 15:00:09.812 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com//documentintelligence/documentModels/prebuilt-layout:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Length': '454668'
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'a85ab12e-30f5-11f0-8148-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-05-14 15:00:09.817 | DEBUG    | logging:1706 | Starting new HTTPS connection (1): back-to-back-lear.cognitiveservices.azure.com:443
+2025-05-14 15:00:12.419 | DEBUG    | logging:1706 | https://back-to-back-lear.cognitiveservices.azure.com:443 "POST /documentintelligence/documentModels/prebuilt-layout:analyze?api-version=2024-11-30 HTTP/1.1" 202 0
+2025-05-14 15:00:12.425 | INFO     | logging:1706 | Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:00:12 GMT'
+2025-05-14 15:00:12.429 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/4fbd3d63-6e2e-4ac3-bd4e-2e7a5ddafe02?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'a85ab12e-30f5-11f0-8148-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-14 15:00:12.682 | DEBUG    | logging:1706 | https://back-to-back-lear.cognitiveservices.azure.com:443 "GET /documentintelligence/documentModels/prebuilt-layout/analyzeResults/4fbd3d63-6e2e-4ac3-bd4e-2e7a5ddafe02?api-version=2024-11-30 HTTP/1.1" 200 106
+2025-05-14 15:00:12.683 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:00:12 GMT'
+2025-05-14 15:00:13.688 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/4fbd3d63-6e2e-4ac3-bd4e-2e7a5ddafe02?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'a85ab12e-30f5-11f0-8148-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-14 15:00:13.960 | DEBUG    | logging:1706 | https://back-to-back-lear.cognitiveservices.azure.com:443 "GET /documentintelligence/documentModels/prebuilt-layout/analyzeResults/4fbd3d63-6e2e-4ac3-bd4e-2e7a5ddafe02?api-version=2024-11-30 HTTP/1.1" 200 106
+2025-05-14 15:00:13.961 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:00:13 GMT'
+2025-05-14 15:00:14.967 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/4fbd3d63-6e2e-4ac3-bd4e-2e7a5ddafe02?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'a85ab12e-30f5-11f0-8148-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-14 15:00:15.215 | DEBUG    | logging:1706 | https://back-to-back-lear.cognitiveservices.azure.com:443 "GET /documentintelligence/documentModels/prebuilt-layout/analyzeResults/4fbd3d63-6e2e-4ac3-bd4e-2e7a5ddafe02?api-version=2024-11-30 HTTP/1.1" 200 106
+2025-05-14 15:00:15.215 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:00:15 GMT'
+2025-05-14 15:00:16.221 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/4fbd3d63-6e2e-4ac3-bd4e-2e7a5ddafe02?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'a85ab12e-30f5-11f0-8148-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-14 15:00:16.497 | DEBUG    | logging:1706 | https://back-to-back-lear.cognitiveservices.azure.com:443 "GET /documentintelligence/documentModels/prebuilt-layout/analyzeResults/4fbd3d63-6e2e-4ac3-bd4e-2e7a5ddafe02?api-version=2024-11-30 HTTP/1.1" 200 49657
+2025-05-14 15:00:16.706 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '49657'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:00:16 GMT'
+2025-05-14 15:00:16.740 | INFO     | utils.document_logging:47 | 🔵 EXTRAÇÃO AZURE | ID: 58e57a | Documento: tmp82uhbn38_proc.jpeg | Caracteres: 919 | Linhas: 72 
+2025-05-14 15:00:16.740 | INFO     | ocr.document_processor:700 | Extração Azure concluída | ID: 58e57a | Tempo: 6.930s | Páginas: 1 | Caracteres: 919
+2025-05-14 15:00:16.741 | DEBUG    | ocr.document_processor:359 | AMOSTRA AZURE: S
+DA EM TODO O TERRITORIO NACIONAL
+2500816176
+REPUBLICA FEDERATIVA DO BRASIL
+MINISTERIO DA INFRAESTRUTURA
+SECRETARIA NACIONAL DE TRANSITO
+BR
+CARTEIRA NACIONAL DE HABILITAÇÃO / DRIVER LICENSE / PERMISO...
+2025-05-14 15:00:16.741 | INFO     | ocr.document_processor:517 | Análise de qualidade do texto | ID: 58e57a-azure | Qualidade: 0.72
+2025-05-14 15:00:16.741 | DEBUG    | ocr.document_processor:518 | Métricas detalhadas: {"caracteres_totais": 919, "linhas_totais": 72, "chars_por_linha": "12.8", "palavras_totais": 150, "palavras_por_linha": "2.1", "prop_chars_validos": "1.00", "prop_linhas_curtas": "0.40", "prop_palavras_validas": "0.71", "pdf_text_boost": "0.00", "qualidade_texto": "0.72"}
+2025-05-14 15:00:16.741 | INFO     | ocr.document_processor:362 | Azure extraiu 919 caracteres em 6.930s (qualidade: 0.72) | ID: 58e57a
+2025-05-14 15:00:16.742 | INFO     | utils.document_logging:56 | 🔵 QUALIDADE AZURE | ID: 58e57a | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg | Score: 0.72 | Métricas: {"caracteres": 919, "linhas": 72, "tempo_processamento": "6.930s"}
+2025-05-14 15:00:16.742 | INFO     | ocr.document_processor:374 | Usando resultado do Azure | ID: 58e57a
+2025-05-14 15:00:16.742 | INFO     | utils.document_logging:47 | 🔵 EXTRAÇÃO AZURE | ID: 58e57a | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg | Caracteres: 919 | Linhas: 72 | Qualidade: 0.72
+2025-05-14 15:00:16.742 | DEBUG    | ocr.document_processor:861 | Pós-processamento concluído | ID: 58e57a | Caracteres: 919 → 915 | Palavras: 150 → 146 | Tempo: 0.000s
+2025-05-14 15:00:16.742 | DEBUG    | ocr.document_processor:392 | Pós-processamento concluído em 0.001s | ID: 58e57a
+2025-05-14 15:00:16.742 | INFO     | ocr.document_processor:406 | Extração concluída em 7.066s | ID: 58e57a
+2025-05-14 15:00:16.743 | INFO     | utils.document_logging:73 | 🔵 PROCESSAMENTO CONCLUÍDO | ID: 58e57a | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg | Método: Azure | Tempo: 7.066s | Estatísticas: {"tempo_total": "7.066s", "tamanho_arquivo": "173.3KB", "tipo_documento": "image", "qualidade_detectada": "0.72", "texto_extraido_chars": 915, "texto_extraido_linhas": 69, "metodo_principal": "Azure"}
+2025-05-14 15:00:16.743 | DEBUG    | ocr.document_processor:428 | Arquivo temporário removido: /var/folders/yw/5nzky279361g2yr3y70jzrz40000gn/T/tmp82uhbn38.jpeg
+2025-05-14 15:00:16.743 | DEBUG    | ocr.document_processor:433 | Arquivo processado removido: /var/folders/yw/5nzky279361g2yr3y70jzrz40000gn/T/tmp82uhbn38_proc.jpeg
+2025-05-14 15:00:16.744 | INFO     | classification.classifier:215 | Classificando documento...
+2025-05-14 15:00:16.744 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: 1a14f1 | Documento: documento-1a14f1 | Tipo: Classificação
+2025-05-14 15:00:16.744 | DEBUG    | classification.classifier:222 | Usando 915 caracteres para classificação | ID: 1a14f1
+2025-05-14 15:00:16.745 | DEBUG    | classification.classifier:242 | Enviando prompt com aproximadamente 955 tokens estimados | ID: 1a14f1
+2025-05-14 15:00:16.755 | INFO     | utils.document_logging:97 | 🏷️ CLASSIFICAÇÃO | ID: 1a14f1 | Documento: documento-1a14f1 | Tipo: Em andamento...  
+2025-05-14 15:00:16.759 | DEBUG    | logging:1706 | Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-1c0b4c06-f11a-4466-9d8b-630f0bdb1b07', 'json_data': {'messages': [{'content': 'Você é um especialista em classificação de documentos empresariais e fiscais.\n\nVocê receberá um texto extraído de um documento e deverá classificá-lo em um dos seguintes tipos:\n\n1. CNH\n2. Comprovante Bancário\n3. Cartão CNPJ\n4. CEI da Obra\n5. Inscrição Municipal\n6. Termo de Responsabilidade\n7. Alvará Municipal\n8. Contrato Social\n9. Fatura Telefônica\n10. Nota Fiscal de Serviços Eletrônica\n\nAqui estão as características principais de cada tipo de documento para te ajudar na identificação:\n- CNH: Carteira Nacional de Habilitação, documento de habilitação de motorista, com dados pessoais, foto, categoria e validade.\n- Comprovante Bancário: contém dados de transferência, depósito ou pagamento bancário, valores, datas, códigos de autenticação e instituições financeiras.\n- Cartão CNPJ: comprovante de inscrição e situação cadastral emitido pela Receita Federal que atesta a existência legal da empresa, contendo número do CNPJ, razão social, nome fantasia, data de abertura, código CNAE das atividades econômicas, natureza jurídica, endereço e situação cadastral.\n- CEI da Obra: documento do INSS que identifica uma construção perante a Receita Federal, contendo número de matrícula CEI, endereço da obra, dados do proprietário (CNPJ/CPF), responsável técnico, número ART e informações cadastrais para regularização e recolhimento de tributos.\n- Inscrição Municipal: documento emitido pela prefeitura com número de inscrição municipal de uma empresa, dados cadastrais e atividades econômicas permitidas no município.\n- Termo de Responsabilidade: documento formal onde pessoa ou entidade assume responsabilidade por determinada ação, bem ou serviço, contendo identificação do responsável, descrição das obrigações assumidas, condições para cumprimento e possíveis consequências legais.\n- Alvará Municipal: licença oficial emitida por autoridades municipais que autoriza o funcionamento legal de empresas e atividades específicas, contendo nome da empresa, registro, atividades permitidas, datas de emissão e validade, e autoridade emissora.\n- Contrato Social: documento legal constitutivo que estabelece as regras da sociedade empresária, detalhando razão social, nome fantasia, CNPJ (em alterações), endereço da sede, objeto social, capital social, quotas e dados dos sócios, forma de administração e representação. Difere do Cartão CNPJ por ser o acordo entre os sócios, não apenas um comprovante cadastral.\n- Fatura Telefônica: conta de serviços telefônicos com detalhamento de ligações, mensagens, dados consumidos, valores e período de cobrança.\n- Nota Fiscal de Serviços Eletrônica: documento fiscal que comprova prestação de serviços, com valores, impostos (como ISS), dados do prestador e tomador.\n\nTexto do documento:\nS\nDA EM TODO O TERRITORIO NACIONAL\n2500816176\nREPUBLICA FEDERATIVA DO BRASIL\nMINISTERIO DA INFRAESTRUTURA\nSECRETARIA NACIONAL DE TRANSITO\nBR\nCARTEIRA NACIONAL DE HABILITAÇÃO / DRIVER LICENSE / PERMISO DE CONDUCCIÓN\n2. 1 NOME E SOBRENOME\nTIAGO PEREIRA RAMOS\n1º HABILITAÇÃO\n06/12/2002\nY ASSINATURA DO PORTADOS\n3 DATA, LOCAL E UF DE NASCIMENTO\n20/10/1984 PRESIDENTE PRUDENTE/SP\n4a DATA EMISSÃO\n21/12/2022\n46 VALIDADE\n21/12/2027\nACC\nD\n4c DOC. IDENTIDADE / ORG. EMISSOR / UF\n999751\nSSP\nMS\n4d CPF\n010.384.101-69\n5 Nº REGISTRO\n02643740160\n9 CAT. HAB\nB\nNACIONALIDADE\nBRASILEIRO\nFILIAÇÃO\nCARLOS ALBERTO RAMOS\nSOLANGE APARECIDA PEREIRA RAMOS\n12.\n9\nACC me\nA\nA1\nB\n21/12/2027\n81\nC\nC1\n2\nD\n10\n11\nDT\nBE\nCE\nCIE\nDE......\nDIE....\nPROIBIDO PLASTIFICAR\n2500816176\n12 OBSERVAÇÕES\nA:\nLOCAL\nCAMPO GRANDE, MS\n752\nRUDEL ESPINDOLA TRINDADE JUNIOR\nDIRETOR-PRESIDENTE - DETRAN MS\nASSINATURA DO EMISSOR\n62404180589\nMS857112961\nMATO GROSSO DO SUL\n\nAnalise cuidadosamente o conteúdo e classifique o documento.\nResponda com apenas o tipo do documento exatamente como está na lista acima. Por exemplo: "Contrato Social"\n', 'role': 'user'}], 'model': 'gpt-4.1-mini', 'stream': False}}
+2025-05-14 15:00:16.760 | DEBUG    | logging:1706 | Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-05-14 15:00:16.760 | DEBUG    | logging:1706 | connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-05-14 15:00:16.805 | DEBUG    | logging:1706 | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x13e80b290>
+2025-05-14 15:00:16.805 | DEBUG    | logging:1706 | start_tls.started ssl_context=<ssl.SSLContext object at 0x13c999400> server_hostname='api.openai.com' timeout=None
+2025-05-14 15:00:16.834 | DEBUG    | logging:1706 | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x13e80a790>
+2025-05-14 15:00:16.835 | DEBUG    | logging:1706 | send_request_headers.started request=<Request [b'POST']>
+2025-05-14 15:00:16.835 | DEBUG    | logging:1706 | send_request_headers.complete
+2025-05-14 15:00:16.835 | DEBUG    | logging:1706 | send_request_body.started request=<Request [b'POST']>
+2025-05-14 15:00:16.835 | DEBUG    | logging:1706 | send_request_body.complete
+2025-05-14 15:00:16.836 | DEBUG    | logging:1706 | receive_response_headers.started request=<Request [b'POST']>
+2025-05-14 15:00:17.508 | DEBUG    | logging:1706 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 14 May 2025 19:00:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'meta-servicos-em-informatica'), (b'openai-processing-ms', b'400'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'405'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'2000000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'1999012'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'29ms'), (b'x-request-id', b'req_492464784bb9bddfe8eab3f2961874c4'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=.ka1gooa8uwcaDtPGaDlgvbRB.XDR3bC5Y6iQPi8VDQ-1747249217-1.0.1.1-FhHJ0_5hZzCqMHyAuiu_S9iILF7VK1PFhisqikX.w8kl7u9_abwViHdT9_uBnqiteDZGC.ZW99Gj2ApuuPwqeoUguOOaVokDSWlnTU2tnMI; path=/; expires=Wed, 14-May-25 19:30:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=ZVi6OJ1Hm4tVfeNB5hQ1XdtPd2wKEDDtNsmfJK4ChHg-1747249217808-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'93fca3374a1b621a-GRU'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-05-14 15:00:17.509 | INFO     | logging:1706 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:00:17.510 | DEBUG    | logging:1706 | receive_response_body.started request=<Request [b'POST']>
+2025-05-14 15:00:17.510 | DEBUG    | logging:1706 | receive_response_body.complete
+2025-05-14 15:00:17.510 | DEBUG    | logging:1706 | response_closed.started
+2025-05-14 15:00:17.510 | DEBUG    | logging:1706 | response_closed.complete
+2025-05-14 15:00:17.511 | DEBUG    | logging:1706 | HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Wed, 14 May 2025 19:00:17 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'meta-servicos-em-informatica'), ('openai-processing-ms', '400'), ('openai-version', '2020-10-01'), ('x-envoy-upstream-service-time', '405'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '2000000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '1999012'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '29ms'), ('x-request-id', 'req_492464784bb9bddfe8eab3f2961874c4'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=.ka1gooa8uwcaDtPGaDlgvbRB.XDR3bC5Y6iQPi8VDQ-1747249217-1.0.1.1-FhHJ0_5hZzCqMHyAuiu_S9iILF7VK1PFhisqikX.w8kl7u9_abwViHdT9_uBnqiteDZGC.ZW99Gj2ApuuPwqeoUguOOaVokDSWlnTU2tnMI; path=/; expires=Wed, 14-May-25 19:30:17 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=ZVi6OJ1Hm4tVfeNB5hQ1XdtPd2wKEDDtNsmfJK4ChHg-1747249217808-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '93fca3374a1b621a-GRU'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-05-14 15:00:17.511 | DEBUG    | logging:1706 | request_id: req_492464784bb9bddfe8eab3f2961874c4
+2025-05-14 15:00:17.519 | INFO     | utils.llm_tracker:267 | 🟢 LLM gpt-4.1-mini | sucesso | 1003 in | 3 out | Custo: $0.0303 | Doc: documento-1a14f1 (1a14f1)
+2025-05-14 15:00:17.520 | DEBUG    | utils.llm_tracker:164 | Métricas de uso de LLMs persistidas em logs/llm_usage/llm_usage_metrics.json
+2025-05-14 15:00:17.520 | SUCCESS  | classification.classifier:281 | Documento classificado como: CNH em 0.776s
+2025-05-14 15:00:17.520 | INFO     | utils.document_logging:97 | 🏷️ CLASSIFICAÇÃO | ID: 1a14f1 | Documento: documento-1a14f1 | Tipo: CNH | Confiança: 0.95 | Tempo: 0.776s
+2025-05-14 15:00:17.521 | INFO     | utils.document_logging:97 | 🏷️ CLASSIFICAÇÃO | ID: f3b416 | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg | Tipo: CNH  | Tempo: 0.777s
+2025-05-14 15:00:17.631 | INFO     | logging:1706 | Extracting data from CNH...
+2025-05-14 15:00:17.633 | DEBUG    | logging:1706 | Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-fd963812-c3be-45ab-9cdc-84b12ebbe11a', 'json_data': {'messages': [{'content': '\nVocê é um agente especializado na extração de informações de documentos oficiais do tipo **CNH** (Carteira Nacional de Habilitação — CNH física ou CNH-e).\n\nExtraia com precisão os seguintes campos, mesmo que estejam fora de ordem ou formatados de maneira incomum. Os dados devem estar em codificação UTF-8.\n\n- Nome completo do condutor\n- Número de registro/CNH (11 dígitos numéricos)\n- CPF do condutor (com ou sem formatação)\n- Data de nascimento (formato DD/MM/AAAA)\n- Data da primeira habilitação (formato DD/MM/AAAA)\n- Data de validade da CNH (formato DD/MM/AAAA)\n- Categoria da CNH (ex: A, B, AB, C, D, E, ACC)\n- Observações ou restrições (descrições ou códigos, se houver)\n- UF (estado) emissor da CNH\n- Local de nascimento (cidade e UF)\n- Filiação (nome dos pais ou responsáveis legais)\n- RG (número do documento de identidade, se disponível)\n\nSe algum campo não estiver presente ou legível, retorne exatamente: `"Não foi possível localizar este campo"`.\n\nTexto do documento:\nS\nDA EM TODO O TERRITORIO NACIONAL\n2500816176\nREPUBLICA FEDERATIVA DO BRASIL\nMINISTERIO DA INFRAESTRUTURA\nSECRETARIA NACIONAL DE TRANSITO\nBR\nCARTEIRA NACIONAL DE HABILITAÇÃO / DRIVER LICENSE / PERMISO DE CONDUCCIÓN\n2. 1 NOME E SOBRENOME\nTIAGO PEREIRA RAMOS\n1º HABILITAÇÃO\n06/12/2002\nY ASSINATURA DO PORTADOS\n3 DATA, LOCAL E UF DE NASCIMENTO\n20/10/1984 PRESIDENTE PRUDENTE/SP\n4a DATA EMISSÃO\n21/12/2022\n46 VALIDADE\n21/12/2027\nACC\nD\n4c DOC. IDENTIDADE / ORG. EMISSOR / UF\n999751\nSSP\nMS\n4d CPF\n010.384.101-69\n5 Nº REGISTRO\n02643740160\n9 CAT. HAB\nB\nNACIONALIDADE\nBRASILEIRO\nFILIAÇÃO\nCARLOS ALBERTO RAMOS\nSOLANGE APARECIDA PEREIRA RAMOS\n12.\n9\nACC me\nA\nA1\nB\n21/12/2027\n81\nC\nC1\n2\nD\n10\n11\nDT\nBE\nCE\nCIE\nDE......\nDIE....\nPROIBIDO PLASTIFICAR\n2500816176\n12 OBSERVAÇÕES\nA:\nLOCAL\nCAMPO GRANDE, MS\n752\nRUDEL ESPINDOLA TRINDADE JUNIOR\nDIRETOR-PRESIDENTE - DETRAN MS\nASSINATURA DO EMISSOR\n62404180589\nMS857112961\nMATO GROSSO DO SUL\n\nResponda exclusivamente no seguinte formato JSON, respeitando a estrutura abaixo:\n\n{\n  "tipo_documento": "CNH",\n  "nome": "...",\n  "numero_registro": "...",\n  "cpf": "...",\n  "data_nascimento": "...",\n  "data_primeira_habilitacao": "...",\n  "validade": "...",\n  "categoria": "...",\n  "restricoes": "...",\n  "uf_emissor": "...",\n  "local_nascimento": "...",\n  "filiacao": "...",\n  "rg": "..."\n}\n', 'role': 'user'}], 'model': 'gpt-4.1-mini', 'stream': False}}
+2025-05-14 15:00:17.634 | DEBUG    | logging:1706 | Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-05-14 15:00:17.634 | DEBUG    | logging:1706 | connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-05-14 15:00:17.659 | DEBUG    | logging:1706 | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x13e809710>
+2025-05-14 15:00:17.660 | DEBUG    | logging:1706 | start_tls.started ssl_context=<ssl.SSLContext object at 0x13e774170> server_hostname='api.openai.com' timeout=None
+2025-05-14 15:00:17.689 | DEBUG    | logging:1706 | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x13e861510>
+2025-05-14 15:00:17.689 | DEBUG    | logging:1706 | send_request_headers.started request=<Request [b'POST']>
+2025-05-14 15:00:17.689 | DEBUG    | logging:1706 | send_request_headers.complete
+2025-05-14 15:00:17.690 | DEBUG    | logging:1706 | send_request_body.started request=<Request [b'POST']>
+2025-05-14 15:00:17.690 | DEBUG    | logging:1706 | send_request_body.complete
+2025-05-14 15:00:17.690 | DEBUG    | logging:1706 | receive_response_headers.started request=<Request [b'POST']>
+2025-05-14 15:00:20.634 | DEBUG    | logging:1706 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 14 May 2025 19:00:20 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'meta-servicos-em-informatica'), (b'openai-processing-ms', b'2553'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'2568'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'2000000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'1999411'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'17ms'), (b'x-request-id', b'req_0b24cc76b87a82da8582946f2e7ac1d2'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=SryAh2P9BNl_mVucSQCw2.re.l6XWJk4jTXV4Zw9GFY-1747249220-1.0.1.1-LavxpFgkv15L1jzGUWcvxMOcGwREGDxw0.R8qGVdGbNX5IxqGtxz3Lnw1h0vsPmcBEmzrSdTYBexnrLatRIIEkdtBYDcnDr.F2nVgGzkiYs; path=/; expires=Wed, 14-May-25 19:30:20 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=U3PejUEsFwS6La7ytvh08k1HMI8_htfrjdQ0O7cafg8-1747249220934-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'93fca33c98faa3ff-GRU'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-05-14 15:00:20.634 | INFO     | logging:1706 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:00:20.634 | DEBUG    | logging:1706 | receive_response_body.started request=<Request [b'POST']>
+2025-05-14 15:00:20.635 | DEBUG    | logging:1706 | receive_response_body.complete
+2025-05-14 15:00:20.635 | DEBUG    | logging:1706 | response_closed.started
+2025-05-14 15:00:20.635 | DEBUG    | logging:1706 | response_closed.complete
+2025-05-14 15:00:20.635 | DEBUG    | logging:1706 | HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Wed, 14 May 2025 19:00:20 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'meta-servicos-em-informatica'), ('openai-processing-ms', '2553'), ('openai-version', '2020-10-01'), ('x-envoy-upstream-service-time', '2568'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '2000000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '1999411'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '17ms'), ('x-request-id', 'req_0b24cc76b87a82da8582946f2e7ac1d2'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=SryAh2P9BNl_mVucSQCw2.re.l6XWJk4jTXV4Zw9GFY-1747249220-1.0.1.1-LavxpFgkv15L1jzGUWcvxMOcGwREGDxw0.R8qGVdGbNX5IxqGtxz3Lnw1h0vsPmcBEmzrSdTYBexnrLatRIIEkdtBYDcnDr.F2nVgGzkiYs; path=/; expires=Wed, 14-May-25 19:30:20 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=U3PejUEsFwS6La7ytvh08k1HMI8_htfrjdQ0O7cafg8-1747249220934-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '93fca33c98faa3ff-GRU'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-05-14 15:00:20.636 | DEBUG    | logging:1706 | request_id: req_0b24cc76b87a82da8582946f2e7ac1d2
+2025-05-14 15:00:20.640 | INFO     | logging:1706 | Successfully extracted data from CNH
+2025-05-14 15:00:20.640 | DEBUG    | api.routes:270 | Dados extraídos com sucesso para tipo CNH
+2025-05-14 15:00:20.640 | INFO     | utils.document_logging:47 | 📄 EXTRAÇÃO EXTRACTOR | ID: f3b416 | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg | Caracteres: 915 | Linhas: 69 
+2025-05-14 15:00:20.800 | DEBUG    | logging:1706 | Request options: {'method': 'post', 'url': '/embeddings', 'files': None, 'idempotency_key': 'stainless-python-retry-a6e64257-c961-40d7-aafd-626ff3b229e4', 'post_parser': <function Embeddings.create.<locals>.parser at 0x13e7ca660>, 'json_data': {'input': [[50, 198, 6486, 17329, 5456, 507, 350, 2716, 45656, 3895, 452, 46144, 984, 198, 5154, 22534, 21717, 21, 198, 793, 60359, 32, 435, 1507, 643, 835, 92440, 9503, 19333, 1950, 1750, 198, 16818, 20092, 3895, 25561, 36072, 5726, 5288, 49, 1406, 41410, 198, 66410, 946, 5987, 452, 46144, 984, 3467, 48633, 90259, 198, 13396, 198, 37490, 2505, 61656, 452, 46144, 984, 3467, 473, 1905, 1750, 64286, 75734, 611, 49829, 12367, 611, 18335, 44, 25141, 3467, 3501, 22272, 3791, 64242, 198, 17, 13, 220, 16, 452, 11662, 469, 5745, 33, 41992, 11662, 198, 27712, 72161, 18335, 36, 61656, 22813, 3204, 198, 16, 29300, 473, 1905, 1750, 64286, 75734, 198, 2705, 14, 717, 14, 1049, 17, 198, 56, 36660, 691, 835, 41410, 9503, 19617, 91042, 198, 18, 14444, 11, 43601, 469, 69692, 3467, 16473, 34, 67053, 46, 198, 508, 14, 605, 14, 3753, 19, 79864, 20398, 36, 8743, 82050, 36, 14, 4695, 198, 19, 64, 14444, 469, 80570, 53228, 198, 1691, 14, 717, 14, 2366, 17, 198, 2790, 44391, 33941, 198, 1691, 14, 717, 14, 2366, 22, 198, 30542, 198, 35, 198, 19, 66, 61455, 13, 73854, 97365, 611, 2794, 38, 13, 469, 80570, 878, 611, 69692, 198, 5500, 23986, 198, 1242, 47, 198, 4931, 198, 19, 67, 46550, 198, 7755, 13, 12910, 13, 4645, 12, 3076, 198, 20, 452, 29300, 13990, 3931, 1308, 198, 21641, 18318, 10841, 1399, 198, 24, 45081, 13, 473, 1905, 198, 33, 198, 45, 46144, 984, 97365, 198, 13396, 1950, 3015, 68884, 198, 37, 1750, 5987, 75734, 198, 37490, 38658, 8927, 62537, 46, 22813, 3204, 198, 50, 1971, 11762, 10314, 4577, 34, 52271, 18335, 36, 61656, 22813, 3204, 198, 717, 627, 24, 198, 30542, 757, 198, 32, 198, 32, 16, 198, 33, 198, 1691, 14, 717, 14, 2366, 22, 198, 5932, 198, 34, 198, 34, 16, 198, 17, 198, 35, 198, 605, 198, 806, 198, 10822, 198, 11855, 198, 2152, 198, 34, 5484, 198, 1170, 29249, 198, 35, 5484, 78928, 9295, 3336, 72074, 10528, 6483, 34735, 946, 198, 5154, 22534, 21717, 21, 198, 717, 76960, 643, 13114, 47013, 127, 243, 1600, 198, 32, 512, 40181, 198, 49413, 2089, 15116, 1111, 1170, 11, 10504, 198, 23644, 198, 37103, 39432, 18609, 5358, 91121, 5091, 5358, 33941, 622, 1899, 43996, 198, 35, 7618, 50758, 9483, 7157, 20398, 36, 482, 41343, 49, 1111, 10504, 198, 5045, 691, 835, 41410, 9503, 469, 80570, 878, 198, 23000, 20945, 21032, 4578, 198, 4931, 20907, 7261, 26114, 198, 57989, 46, 480, 45584, 46, 9503, 328, 1112]], 'model': 'text-embedding-ada-002', 'encoding_format': 'base64'}}
+2025-05-14 15:00:20.800 | DEBUG    | logging:1706 | Sending HTTP Request: POST https://api.openai.com/v1/embeddings
+2025-05-14 15:00:20.800 | DEBUG    | logging:1706 | connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=None socket_options=None
+2025-05-14 15:00:20.827 | DEBUG    | logging:1706 | connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x13e80a410>
+2025-05-14 15:00:20.827 | DEBUG    | logging:1706 | start_tls.started ssl_context=<ssl.SSLContext object at 0x13cf5ae70> server_hostname='api.openai.com' timeout=None
+2025-05-14 15:00:20.858 | DEBUG    | logging:1706 | start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x13e841550>
+2025-05-14 15:00:20.859 | DEBUG    | logging:1706 | send_request_headers.started request=<Request [b'POST']>
+2025-05-14 15:00:20.859 | DEBUG    | logging:1706 | send_request_headers.complete
+2025-05-14 15:00:20.859 | DEBUG    | logging:1706 | send_request_body.started request=<Request [b'POST']>
+2025-05-14 15:00:20.859 | DEBUG    | logging:1706 | send_request_body.complete
+2025-05-14 15:00:20.859 | DEBUG    | logging:1706 | receive_response_headers.started request=<Request [b'POST']>
+2025-05-14 15:00:21.438 | DEBUG    | logging:1706 | receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 14 May 2025 19:00:21 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-model', b'text-embedding-ada-002-v2'), (b'openai-organization', b'meta-servicos-em-informatica'), (b'openai-processing-ms', b'174'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'via', b'envoy-router-bd898c55c-n7584'), (b'x-envoy-upstream-service-time', b'180'), (b'x-ratelimit-limit-requests', b'5000'), (b'x-ratelimit-limit-tokens', b'1000000'), (b'x-ratelimit-remaining-requests', b'4999'), (b'x-ratelimit-remaining-tokens', b'999589'), (b'x-ratelimit-reset-requests', b'12ms'), (b'x-ratelimit-reset-tokens', b'24ms'), (b'x-request-id', b'req_e33ca08d939bd684dfc4ec8e5320bfa5'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=0J5wOiHN5BaUAXIoHEzsfAkEjd3Se_OCitSphHesO4A-1747249221-1.0.1.1-AGzFgetIz45Euy3fOniAcmX086Io733qZyj2o9N9xAlCnbPPTsvsIy2SqBaPs.g280qBXKnHUa_gNHyaGFwE0BiRUVATZxeLVPbmBIcTSPk; path=/; expires=Wed, 14-May-25 19:30:21 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=tMJchoc2902IrrcB6D9V9kj9u6IiWb3eY5HRumRePtg-1747249221710-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'93fca3506c926268-GRU'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-05-14 15:00:21.441 | INFO     | logging:1706 | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-14 15:00:21.442 | DEBUG    | logging:1706 | receive_response_body.started request=<Request [b'POST']>
+2025-05-14 15:00:21.444 | DEBUG    | logging:1706 | receive_response_body.complete
+2025-05-14 15:00:21.444 | DEBUG    | logging:1706 | response_closed.started
+2025-05-14 15:00:21.445 | DEBUG    | logging:1706 | response_closed.complete
+2025-05-14 15:00:21.445 | DEBUG    | logging:1706 | HTTP Response: POST https://api.openai.com/v1/embeddings "200 OK" Headers([('date', 'Wed, 14 May 2025 19:00:21 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-allow-origin', '*'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-model', 'text-embedding-ada-002-v2'), ('openai-organization', 'meta-servicos-em-informatica'), ('openai-processing-ms', '174'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('via', 'envoy-router-bd898c55c-n7584'), ('x-envoy-upstream-service-time', '180'), ('x-ratelimit-limit-requests', '5000'), ('x-ratelimit-limit-tokens', '1000000'), ('x-ratelimit-remaining-requests', '4999'), ('x-ratelimit-remaining-tokens', '999589'), ('x-ratelimit-reset-requests', '12ms'), ('x-ratelimit-reset-tokens', '24ms'), ('x-request-id', 'req_e33ca08d939bd684dfc4ec8e5320bfa5'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=0J5wOiHN5BaUAXIoHEzsfAkEjd3Se_OCitSphHesO4A-1747249221-1.0.1.1-AGzFgetIz45Euy3fOniAcmX086Io733qZyj2o9N9xAlCnbPPTsvsIy2SqBaPs.g280qBXKnHUa_gNHyaGFwE0BiRUVATZxeLVPbmBIcTSPk; path=/; expires=Wed, 14-May-25 19:30:21 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=tMJchoc2902IrrcB6D9V9kj9u6IiWb3eY5HRumRePtg-1747249221710-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '93fca3506c926268-GRU'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-05-14 15:00:21.445 | DEBUG    | logging:1706 | request_id: req_e33ca08d939bd684dfc4ec8e5320bfa5
+2025-05-14 15:00:21.450 | INFO     | api.routes:300 | Documento armazenado com ID: 37da459c-1822-40a3-afdd-de142e228f18
+2025-05-14 15:00:21.450 | INFO     | utils.document_logging:73 | ✅ PROCESSAMENTO CONCLUÍDO | ID: f3b416 | Documento: WhatsApp Image 2025-05-14 at 10.25.10.jpeg | Método: CNH | Tempo: 11.774s | Estatísticas: {"document_type": "CNH", "extraction_fields": 13, "storage_id": "37da459c-1822-40a3-afdd-de142e228f18", "text_length": 915}
+2025-05-14 15:00:21.450 | SUCCESS  | api.routes:325 | Documento processado com sucesso em 0:00:11.774123
+2025-05-14 15:00:21.451 | INFO     | logging:1706 | 127.0.0.1:60389 - "POST /api/v1/extract HTTP/1.1" 200
+2025-05-14 15:18:19.832 | SUCCESS  | utils.logging:117 | Sistema de logging unificado inicializado com sucesso!
+2025-05-14 15:18:19.840 | INFO     | __main__:66 | Iniciando servidor em 0.0.0.0:8000
+2025-05-14 15:18:26.073 | SUCCESS  | utils.logging:117 | Sistema de logging unificado inicializado com sucesso!
+2025-05-14 15:18:26.105 | SUCCESS  | utils.logging:117 | Sistema de logging unificado inicializado com sucesso!
+2025-05-14 15:18:26.112 | INFO     | logging:1706 | Started server process [5798]
+2025-05-14 15:18:26.112 | INFO     | logging:1706 | Waiting for application startup.
+2025-05-14 15:18:26.113 | SUCCESS  | main:31 | ========== Aplicação iniciada com sucesso ==========
+2025-05-14 15:18:26.113 | INFO     | main:32 | Servidor rodando em http://0.0.0.0:8000
+2025-05-14 15:18:26.113 | INFO     | logging:1706 | Application startup complete.
+2025-05-14 15:18:46.703 | INFO     | utils.document_logging:89 | 🌐 API POST | Endpoint: /extract | ID: b7c3e7 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf
+2025-05-14 15:18:46.703 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: b7c3e7 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf 
+2025-05-14 15:18:46.705 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: 4ef9c8 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | Tipo: pdf
+2025-05-14 15:18:46.706 | INFO     | ocr.document_processor:155 | Iniciando extração de texto | ID: 4ef9c8 | Arquivo: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | Tamanho: 2957.1KB
+2025-05-14 15:18:46.706 | INFO     | ocr.document_processor:534 | Analisando documento | ID: b7ba7f | Extensão: pdf | Tamanho: 2957.1KB
+2025-05-14 15:18:46.731 | INFO     | logging:1706 | pikepdf C++ to Python logger bridge initialized
+2025-05-14 15:18:46.769 | INFO     | ocr.document_processor:564 | PDF com camada de texto detectado | ID: b7ba7f | Qualidade: 0.75
+2025-05-14 15:18:46.770 | INFO     | ocr.document_processor:623 | Documento analisado em 0.063s | ID: b7ba7f | Tipo: pdf | Qualidade: 0.75
+2025-05-14 15:18:46.772 | INFO     | utils.document_logging:27 | 🟢 DOCLING LOCAL | ID: 4ef9c8 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | Tipo: pdf | Modelo: Docling Converter
+2025-05-14 15:18:46.772 | INFO     | ocr.document_processor:207 | Iniciando conversão com Docling | ID: 4ef9c8
+2025-05-14 15:18:46.842 | INFO     | logging:1706 | Going to convert document batch...
+2025-05-14 15:18:47.160 | INFO     | logging:1706 | Accelerator device: 'mps'
+2025-05-14 15:18:49.460 | INFO     | logging:1706 | Accelerator device: 'mps'
+2025-05-14 15:18:50.375 | INFO     | logging:1706 | Accelerator device: 'mps'
+2025-05-14 15:18:50.782 | INFO     | logging:1706 | Processing document tmp6qkpmzom.pdf
+2025-05-14 15:19:13.157 | INFO     | logging:1706 | Finished converting document tmp6qkpmzom.pdf in 26.38 sec.
+2025-05-14 15:19:13.221 | INFO     | ocr.document_processor:247 | Docling extraiu texto com sucesso: 19832 caracteres, 470 linhas
+2025-05-14 15:19:13.221 | INFO     | ocr.document_processor:261 | Detectadas 32 tags de imagem | ID: 4ef9c8
+2025-05-14 15:19:13.222 | INFO     | ocr.document_processor:265 | Direcionando para Azure devido à Alta quantidade de áreas não extraídas (32 tags de imagem)
+2025-05-14 15:19:13.223 | WARNING  | utils.document_logging:64 | ⚠️ FALLBACK | ID: 4ef9c8 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | De: Docling → Para: Azure | Motivo: Alta quantidade de áreas não extraídas (32 tags de imagem)
+2025-05-14 15:19:13.223 | WARNING  | utils.document_logging:35 | 🔵 AZURE API | ID: 4ef9c8 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf  | Serviço: Document Intelligence 
+2025-05-14 15:19:13.223 | INFO     | ocr.document_processor:642 | Iniciando extração com Azure | ID: 4ef9c8
+2025-05-14 15:19:13.225 | INFO     | utils.azure_tracker:208 | 🔵 AZURE prebuilt-layout | sucesso | document_intelligence | Doc: 4ef9c8 | 1 página(s) | 2.89MB | $0.0050
+2025-05-14 15:19:13.228 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com//documentintelligence/documentModels/prebuilt-layout:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Length': '3028084'
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '51e210c8-30f8-11f0-a60e-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-05-14 15:19:16.432 | INFO     | logging:1706 | Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:19:16 GMT'
+2025-05-14 15:19:16.434 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/ad2f9ed2-6030-4f60-b49d-13d1d7036414?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '51e210c8-30f8-11f0-a60e-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-14 15:19:16.737 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:19:16 GMT'
+2025-05-14 15:19:17.743 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/ad2f9ed2-6030-4f60-b49d-13d1d7036414?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '51e210c8-30f8-11f0-a60e-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-14 15:19:18.070 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:19:17 GMT'
+2025-05-14 15:19:19.073 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/ad2f9ed2-6030-4f60-b49d-13d1d7036414?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '51e210c8-30f8-11f0-a60e-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-14 15:19:19.399 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:19:19 GMT'
+2025-05-14 15:19:20.405 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/ad2f9ed2-6030-4f60-b49d-13d1d7036414?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '51e210c8-30f8-11f0-a60e-0a263fac6c94'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.4.1-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-14 15:19:22.882 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '505244'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Wed, 14 May 2025 19:19:20 GMT'
+2025-05-14 15:19:23.136 | INFO     | utils.azure_tracker:208 | 🔵 AZURE prebuilt-layout | sucesso | document_intelligence | Doc: 4ef9c8 | 8 página(s) | 2.89MB | $0.0400
+2025-05-14 15:19:23.137 | INFO     | utils.document_logging:47 | 🔵 EXTRAÇÃO AZURE | ID: 4ef9c8 | Documento: tmp6qkpmzom.pdf | Caracteres: 16038 | Linhas: 372 
+2025-05-14 15:19:23.137 | INFO     | ocr.document_processor:700 | Extração Azure concluída | ID: 4ef9c8 | Tempo: 9.914s | Páginas: 8 | Caracteres: 16038
+2025-05-14 15:19:23.144 | INFO     | ocr.document_processor:517 | Análise de qualidade do texto | ID: 4ef9c8-azure | Qualidade: 0.93
+2025-05-14 15:19:23.144 | INFO     | ocr.document_processor:362 | Azure extraiu 16038 caracteres em 9.915s (qualidade: 0.93) | ID: 4ef9c8
+2025-05-14 15:19:23.144 | INFO     | utils.document_logging:56 | 🔵 QUALIDADE AZURE | ID: 4ef9c8 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | Score: 0.93 | Métricas: {"caracteres": 16038, "linhas": 372, "tempo_processamento": "9.915s"}
+2025-05-14 15:19:23.144 | INFO     | ocr.document_processor:374 | Usando resultado do Azure | ID: 4ef9c8
+2025-05-14 15:19:23.144 | INFO     | utils.document_logging:47 | 🔵 EXTRAÇÃO AZURE | ID: 4ef9c8 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | Caracteres: 16038 | Linhas: 372 | Qualidade: 0.93
+2025-05-14 15:19:23.146 | INFO     | ocr.document_processor:406 | Extração concluída em 36.441s | ID: 4ef9c8
+2025-05-14 15:19:23.146 | INFO     | utils.document_logging:73 | 🔵 PROCESSAMENTO CONCLUÍDO | ID: 4ef9c8 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | Método: Azure | Tempo: 36.441s | Estatísticas: {"tempo_total": "36.441s", "tamanho_arquivo": "2957.1KB", "tipo_documento": "pdf", "qualidade_detectada": "0.75", "texto_extraido_chars": 16037, "texto_extraido_linhas": 372, "metodo_principal": "Azure"}
+2025-05-14 15:19:23.150 | INFO     | classification.classifier:215 | Classificando documento...
+2025-05-14 15:19:23.150 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: 3dcc54 | Documento: documento-3dcc54 | Tipo: Classificação
+2025-05-14 15:19:23.162 | INFO     | utils.document_logging:97 | 🏷️ CLASSIFICAÇÃO | ID: 3dcc54 | Documento: documento-3dcc54 | Tipo: Em andamento...  
+2025-05-14 15:19:24.910 | INFO     | logging:1706 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:19:24.920 | INFO     | utils.llm_tracker:267 | 🟢 LLM gpt-4.1-mini | sucesso | 1291 in | 2 out | Custo: $0.0388 | Doc: documento-3dcc54 (3dcc54)
+2025-05-14 15:19:24.921 | SUCCESS  | classification.classifier:281 | Documento classificado como: Contrato Social em 1.770s
+2025-05-14 15:19:24.921 | INFO     | utils.document_logging:97 | 🏷️ CLASSIFICAÇÃO | ID: 3dcc54 | Documento: documento-3dcc54 | Tipo: Contrato Social | Confiança: 0.95 | Tempo: 1.770s
+2025-05-14 15:19:24.921 | INFO     | utils.document_logging:97 | 🏷️ CLASSIFICAÇÃO | ID: b7c3e7 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | Tipo: Contrato Social  | Tempo: 1.772s
+2025-05-14 15:19:25.032 | INFO     | logging:1706 | Extracting data from Contrato Social...
+2025-05-14 15:19:29.499 | INFO     | logging:1706 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-14 15:19:29.516 | INFO     | logging:1706 | Successfully extracted data from Contrato Social
+2025-05-14 15:19:29.516 | INFO     | utils.document_logging:47 | 📄 EXTRAÇÃO EXTRACTOR | ID: b7c3e7 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | Caracteres: 16037 | Linhas: 372 
+2025-05-14 15:19:30.767 | INFO     | logging:1706 | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-14 15:19:30.774 | INFO     | api.routes:300 | Documento armazenado com ID: 85c1c063-7851-465d-be99-b244f3f9314d
+2025-05-14 15:19:30.774 | INFO     | utils.document_logging:73 | ✅ PROCESSAMENTO CONCLUÍDO | ID: b7c3e7 | Documento: CONTRATO SOCIAL DE CONSTITUIÇÃO TPS AUTOMAÇÃO E TECNOLOGIA LTDA 11 04 2023.pdf | Método: Contrato Social | Tempo: 44.070s | Estatísticas: {"document_type": "Contrato Social", "extraction_fields": 16, "storage_id": "85c1c063-7851-465d-be99-b244f3f9314d", "text_length": 16037}
+2025-05-14 15:19:30.774 | SUCCESS  | api.routes:325 | Documento processado com sucesso em 0:00:44.070439
+2025-05-14 15:19:30.778 | INFO     | logging:1706 | 127.0.0.1:60828 - "POST /api/v1/extract HTTP/1.1" 200
+2025-05-27 15:33:32.921 | SUCCESS  | utils.logging:117 | Sistema de logging unificado inicializado com sucesso!
+2025-05-27 15:33:32.930 | INFO     | __main__:66 | Iniciando servidor em 0.0.0.0:8000
+2025-05-27 15:33:39.705 | SUCCESS  | utils.logging:117 | Sistema de logging unificado inicializado com sucesso!
+2025-05-27 15:33:39.743 | SUCCESS  | utils.logging:117 | Sistema de logging unificado inicializado com sucesso!
+2025-05-27 15:33:39.750 | INFO     | logging:1706 | Started server process [44553]
+2025-05-27 15:33:39.750 | INFO     | logging:1706 | Waiting for application startup.
+2025-05-27 15:33:39.751 | SUCCESS  | main:31 | ========== Aplicação iniciada com sucesso ==========
+2025-05-27 15:33:39.751 | INFO     | main:32 | Servidor rodando em http://0.0.0.0:8000
+2025-05-27 15:33:39.751 | INFO     | logging:1706 | Application startup complete.
+2025-05-27 15:34:41.724 | INFO     | logging:1706 | 127.0.0.1:51307 - "GET /docs HTTP/1.1" 200
+2025-05-27 15:34:42.150 | INFO     | logging:1706 | 127.0.0.1:51307 - "GET /openapi.json HTTP/1.1" 200
+2025-05-27 15:44:03.414 | INFO     | utils.document_logging:89 | 🌐 API POST | Endpoint: /extract | ID: f0a181 | Documento: CNH-e.pdf
+2025-05-27 15:44:03.414 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: f0a181 | Documento: CNH-e.pdf 
+2025-05-27 15:44:03.414 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: ea25d0 | Documento: CNH-e.pdf | Tipo: pdf
+2025-05-27 15:44:03.414 | INFO     | ocr.document_processor:155 | Iniciando extração de texto | ID: ea25d0 | Arquivo: CNH-e.pdf | Tamanho: 284.0KB
+2025-05-27 15:44:03.414 | INFO     | ocr.document_processor:534 | Analisando documento | ID: ee957a | Extensão: pdf | Tamanho: 284.0KB
+2025-05-27 15:44:03.767 | INFO     | logging:1706 | pikepdf C++ to Python logger bridge initialized
+2025-05-27 15:44:03.835 | INFO     | ocr.document_processor:564 | PDF com camada de texto detectado | ID: ee957a | Qualidade: 0.75
+2025-05-27 15:44:03.836 | INFO     | ocr.document_processor:623 | Documento analisado em 0.421s | ID: ee957a | Tipo: pdf | Qualidade: 0.75
+2025-05-27 15:44:03.837 | INFO     | utils.document_logging:27 | 🟢 DOCLING LOCAL | ID: ea25d0 | Documento: CNH-e.pdf | Tipo: pdf | Modelo: Docling Converter
+2025-05-27 15:44:03.837 | INFO     | ocr.document_processor:207 | Iniciando conversão com Docling | ID: ea25d0
+2025-05-27 15:44:03.885 | INFO     | logging:1706 | Going to convert document batch...
+2025-05-27 15:44:04.355 | INFO     | logging:1706 | Accelerator device: 'mps'
+2025-05-27 15:44:06.828 | INFO     | logging:1706 | Accelerator device: 'mps'
+2025-05-27 15:44:07.777 | INFO     | logging:1706 | Accelerator device: 'mps'
+2025-05-27 15:44:08.197 | INFO     | logging:1706 | Processing document tmp8ry8wrj3.pdf
+2025-05-27 15:44:25.989 | INFO     | logging:1706 | Finished converting document tmp8ry8wrj3.pdf in 22.15 sec.
+2025-05-27 15:44:26.021 | INFO     | ocr.document_processor:247 | Docling extraiu texto com sucesso: 944 caracteres, 35 linhas
+2025-05-27 15:44:26.022 | INFO     | ocr.document_processor:261 | Detectadas 7 tags de imagem | ID: ea25d0
+2025-05-27 15:44:26.022 | INFO     | ocr.document_processor:265 | Direcionando para Azure devido à Alta quantidade de áreas não extraídas (7 tags de imagem)
+2025-05-27 15:44:26.022 | WARNING  | utils.document_logging:64 | ⚠️ FALLBACK | ID: ea25d0 | Documento: CNH-e.pdf | De: Docling → Para: Azure | Motivo: Alta quantidade de áreas não extraídas (7 tags de imagem)
+2025-05-27 15:44:26.022 | WARNING  | utils.document_logging:35 | 🔵 AZURE API | ID: ea25d0 | Documento: CNH-e.pdf  | Serviço: Document Intelligence 
+2025-05-27 15:44:26.022 | INFO     | ocr.document_processor:642 | Iniciando extração com Azure | ID: ea25d0
+2025-05-27 15:44:26.024 | INFO     | utils.azure_tracker:208 | 🔵 AZURE prebuilt-layout | sucesso | document_intelligence | Doc: ea25d0 | 1 página(s) | 0.28MB | $0.0050
+2025-05-27 15:44:26.028 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com//documentintelligence/documentModels/prebuilt-layout:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Length': '290843'
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'fef3bcbe-3b32-11f0-bc18-0a263fac6c95'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.5-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-05-27 15:44:28.074 | INFO     | logging:1706 | Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 27 May 2025 19:44:27 GMT'
+2025-05-27 15:44:28.075 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/b7228316-960f-47e2-9561-5c152392315f?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'fef3bcbe-3b32-11f0-bc18-0a263fac6c95'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.5-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-27 15:44:28.330 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 27 May 2025 19:44:28 GMT'
+2025-05-27 15:44:29.336 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/b7228316-960f-47e2-9561-5c152392315f?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'fef3bcbe-3b32-11f0-bc18-0a263fac6c95'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.5-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-27 15:44:29.572 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 27 May 2025 19:44:29 GMT'
+2025-05-27 15:44:30.575 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/b7228316-960f-47e2-9561-5c152392315f?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'fef3bcbe-3b32-11f0-bc18-0a263fac6c95'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.5-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-27 15:44:31.269 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '96607'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 27 May 2025 19:44:30 GMT'
+2025-05-27 15:44:31.334 | INFO     | utils.document_logging:47 | 🔵 EXTRAÇÃO AZURE | ID: ea25d0 | Documento: tmp8ry8wrj3.pdf | Caracteres: 2304 | Linhas: 93 
+2025-05-27 15:44:31.334 | INFO     | ocr.document_processor:700 | Extração Azure concluída | ID: ea25d0 | Tempo: 5.312s | Páginas: 1 | Caracteres: 2304
+2025-05-27 15:44:31.336 | INFO     | ocr.document_processor:517 | Análise de qualidade do texto | ID: ea25d0-azure | Qualidade: 0.84
+2025-05-27 15:44:31.336 | INFO     | ocr.document_processor:362 | Azure extraiu 2304 caracteres em 5.312s (qualidade: 0.84) | ID: ea25d0
+2025-05-27 15:44:31.336 | INFO     | utils.document_logging:56 | 🔵 QUALIDADE AZURE | ID: ea25d0 | Documento: CNH-e.pdf | Score: 0.84 | Métricas: {"caracteres": 2304, "linhas": 93, "tempo_processamento": "5.312s"}
+2025-05-27 15:44:31.336 | INFO     | ocr.document_processor:374 | Usando resultado do Azure | ID: ea25d0
+2025-05-27 15:44:31.336 | INFO     | utils.document_logging:47 | 🔵 EXTRAÇÃO AZURE | ID: ea25d0 | Documento: CNH-e.pdf | Caracteres: 2304 | Linhas: 93 | Qualidade: 0.84
+2025-05-27 15:44:31.338 | INFO     | ocr.document_processor:406 | Extração concluída em 27.924s | ID: ea25d0
+2025-05-27 15:44:31.338 | INFO     | utils.document_logging:73 | 🔵 PROCESSAMENTO CONCLUÍDO | ID: ea25d0 | Documento: CNH-e.pdf | Método: Azure | Tempo: 27.924s | Estatísticas: {"tempo_total": "27.924s", "tamanho_arquivo": "284.0KB", "tipo_documento": "pdf", "qualidade_detectada": "0.75", "texto_extraido_chars": 2303, "texto_extraido_linhas": 92, "metodo_principal": "Azure"}
+2025-05-27 15:44:31.339 | ERROR    | utils.document_logging:82 | ❌ ERRO | ID: f0a181 | Documento: CNH-e.pdf  | Tipo de documento 'string' não reconhecido
+2025-05-27 15:44:31.340 | INFO     | logging:1706 | 127.0.0.1:51354 - "POST /api/v1/extract HTTP/1.1" 400
+2025-05-27 15:45:02.426 | INFO     | utils.document_logging:89 | 🌐 API POST | Endpoint: /extract | ID: aeba7e | Documento: CNH-e.pdf
+2025-05-27 15:45:02.427 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: aeba7e | Documento: CNH-e.pdf 
+2025-05-27 15:45:02.427 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: ca4f84 | Documento: CNH-e.pdf | Tipo: pdf
+2025-05-27 15:45:02.427 | INFO     | ocr.document_processor:155 | Iniciando extração de texto | ID: ca4f84 | Arquivo: CNH-e.pdf | Tamanho: 284.0KB
+2025-05-27 15:45:02.427 | INFO     | ocr.document_processor:534 | Analisando documento | ID: 4355c1 | Extensão: pdf | Tamanho: 284.0KB
+2025-05-27 15:45:02.429 | INFO     | ocr.document_processor:564 | PDF com camada de texto detectado | ID: 4355c1 | Qualidade: 0.75
+2025-05-27 15:45:02.430 | INFO     | ocr.document_processor:623 | Documento analisado em 0.002s | ID: 4355c1 | Tipo: pdf | Qualidade: 0.75
+2025-05-27 15:45:02.430 | INFO     | utils.document_logging:27 | 🟢 DOCLING LOCAL | ID: ca4f84 | Documento: CNH-e.pdf | Tipo: pdf | Modelo: Docling Converter
+2025-05-27 15:45:02.430 | INFO     | ocr.document_processor:207 | Iniciando conversão com Docling | ID: ca4f84
+2025-05-27 15:45:02.434 | INFO     | logging:1706 | Going to convert document batch...
+2025-05-27 15:45:02.434 | INFO     | logging:1706 | Processing document tmpl6yrmj9e.pdf
+2025-05-27 15:45:06.690 | INFO     | logging:1706 | Finished converting document tmpl6yrmj9e.pdf in 4.26 sec.
+2025-05-27 15:45:06.695 | INFO     | ocr.document_processor:247 | Docling extraiu texto com sucesso: 944 caracteres, 35 linhas
+2025-05-27 15:45:06.695 | INFO     | ocr.document_processor:261 | Detectadas 7 tags de imagem | ID: ca4f84
+2025-05-27 15:45:06.695 | INFO     | ocr.document_processor:265 | Direcionando para Azure devido à Alta quantidade de áreas não extraídas (7 tags de imagem)
+2025-05-27 15:45:06.695 | WARNING  | utils.document_logging:64 | ⚠️ FALLBACK | ID: ca4f84 | Documento: CNH-e.pdf | De: Docling → Para: Azure | Motivo: Alta quantidade de áreas não extraídas (7 tags de imagem)
+2025-05-27 15:45:06.695 | WARNING  | utils.document_logging:35 | 🔵 AZURE API | ID: ca4f84 | Documento: CNH-e.pdf  | Serviço: Document Intelligence 
+2025-05-27 15:45:06.696 | INFO     | ocr.document_processor:642 | Iniciando extração com Azure | ID: ca4f84
+2025-05-27 15:45:06.698 | INFO     | utils.azure_tracker:208 | 🔵 AZURE prebuilt-layout | sucesso | document_intelligence | Doc: ca4f84 | 1 página(s) | 0.28MB | $0.0050
+2025-05-27 15:45:06.699 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com//documentintelligence/documentModels/prebuilt-layout:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Length': '290843'
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '1731bcc2-3b33-11f0-bc18-0a263fac6c95'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.5-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-05-27 15:45:08.372 | INFO     | logging:1706 | Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 27 May 2025 19:45:07 GMT'
+2025-05-27 15:45:08.373 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/e0cd5cf1-f5e3-432b-a187-f718c1605cb4?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1731bcc2-3b33-11f0-bc18-0a263fac6c95'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.5-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-27 15:45:08.715 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 27 May 2025 19:45:07 GMT'
+2025-05-27 15:45:09.719 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/e0cd5cf1-f5e3-432b-a187-f718c1605cb4?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1731bcc2-3b33-11f0-bc18-0a263fac6c95'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.5-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-27 15:45:09.959 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 27 May 2025 19:45:10 GMT'
+2025-05-27 15:45:10.964 | INFO     | logging:1706 | Request URL: 'https://back-to-back-lear.cognitiveservices.azure.com/documentintelligence/documentModels/prebuilt-layout/analyzeResults/e0cd5cf1-f5e3-432b-a187-f718c1605cb4?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1731bcc2-3b33-11f0-bc18-0a263fac6c95'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.12 (macOS-15.5-arm64-arm-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-05-27 15:45:11.453 | INFO     | logging:1706 | Response status: 200
+Response headers:
+    'Content-Length': '96607'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 27 May 2025 19:45:11 GMT'
+2025-05-27 15:45:11.512 | INFO     | utils.document_logging:47 | 🔵 EXTRAÇÃO AZURE | ID: ca4f84 | Documento: tmpl6yrmj9e.pdf | Caracteres: 2304 | Linhas: 93 
+2025-05-27 15:45:11.512 | INFO     | ocr.document_processor:700 | Extração Azure concluída | ID: ca4f84 | Tempo: 4.816s | Páginas: 1 | Caracteres: 2304
+2025-05-27 15:45:11.513 | INFO     | ocr.document_processor:517 | Análise de qualidade do texto | ID: ca4f84-azure | Qualidade: 0.84
+2025-05-27 15:45:11.514 | INFO     | ocr.document_processor:362 | Azure extraiu 2304 caracteres em 4.817s (qualidade: 0.84) | ID: ca4f84
+2025-05-27 15:45:11.514 | INFO     | utils.document_logging:56 | 🔵 QUALIDADE AZURE | ID: ca4f84 | Documento: CNH-e.pdf | Score: 0.84 | Métricas: {"caracteres": 2304, "linhas": 93, "tempo_processamento": "4.817s"}
+2025-05-27 15:45:11.514 | INFO     | ocr.document_processor:374 | Usando resultado do Azure | ID: ca4f84
+2025-05-27 15:45:11.514 | INFO     | utils.document_logging:47 | 🔵 EXTRAÇÃO AZURE | ID: ca4f84 | Documento: CNH-e.pdf | Caracteres: 2304 | Linhas: 93 | Qualidade: 0.84
+2025-05-27 15:45:11.514 | INFO     | ocr.document_processor:406 | Extração concluída em 9.087s | ID: ca4f84
+2025-05-27 15:45:11.514 | INFO     | utils.document_logging:73 | 🔵 PROCESSAMENTO CONCLUÍDO | ID: ca4f84 | Documento: CNH-e.pdf | Método: Azure | Tempo: 9.087s | Estatísticas: {"tempo_total": "9.087s", "tamanho_arquivo": "284.0KB", "tipo_documento": "pdf", "qualidade_detectada": "0.75", "texto_extraido_chars": 2303, "texto_extraido_linhas": 92, "metodo_principal": "Azure"}
+2025-05-27 15:45:11.517 | INFO     | classification.classifier:215 | Classificando documento...
+2025-05-27 15:45:11.517 | INFO     | utils.document_logging:20 | 🔄 INÍCIO PROCESSAMENTO | ID: 4026f8 | Documento: documento-4026f8 | Tipo: Classificação
+2025-05-27 15:45:11.570 | INFO     | utils.document_logging:97 | 🏷️ CLASSIFICAÇÃO | ID: 4026f8 | Documento: documento-4026f8 | Tipo: Em andamento...  
+2025-05-27 15:45:12.322 | INFO     | logging:1706 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 15:45:12.333 | INFO     | utils.llm_tracker:267 | 🟢 LLM gpt-4.1-mini | sucesso | 1315 in | 2 out | Custo: $0.0396 | Doc: documento-4026f8 (4026f8)
+2025-05-27 15:45:12.336 | SUCCESS  | classification.classifier:281 | Documento classificado como: CNH em 0.818s
+2025-05-27 15:45:12.337 | INFO     | utils.document_logging:97 | 🏷️ CLASSIFICAÇÃO | ID: 4026f8 | Documento: documento-4026f8 | Tipo: CNH | Confiança: 0.95 | Tempo: 0.818s
+2025-05-27 15:45:12.337 | INFO     | utils.document_logging:97 | 🏷️ CLASSIFICAÇÃO | ID: aeba7e | Documento: CNH-e.pdf | Tipo: CNH  | Tempo: 0.821s
+2025-05-27 15:45:12.478 | INFO     | logging:1706 | Extracting data from CNH...
+2025-05-27 15:45:16.513 | INFO     | logging:1706 | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 15:45:16.540 | INFO     | logging:1706 | Successfully extracted data from CNH
+2025-05-27 15:45:16.540 | INFO     | utils.document_logging:47 | 📄 EXTRAÇÃO EXTRACTOR | ID: aeba7e | Documento: CNH-e.pdf | Caracteres: 2303 | Linhas: 92 
+2025-05-27 15:45:19.962 | INFO     | logging:1706 | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-27 15:45:19.966 | INFO     | api.routes:300 | Documento armazenado com ID: 3732bbc7-3946-4c0b-b647-c744a212b3b9
+2025-05-27 15:45:19.966 | INFO     | utils.document_logging:73 | ✅ PROCESSAMENTO CONCLUÍDO | ID: aeba7e | Documento: CNH-e.pdf | Método: CNH | Tempo: 17.539s | Estatísticas: {"document_type": "CNH", "extraction_fields": 13, "storage_id": "3732bbc7-3946-4c0b-b647-c744a212b3b9", "text_length": 2303}
+2025-05-27 15:45:19.966 | SUCCESS  | api.routes:325 | Documento processado com sucesso em 0:00:17.539335
+2025-05-27 15:45:19.967 | INFO     | logging:1706 | 127.0.0.1:51363 - "POST /api/v1/extract HTTP/1.1" 200

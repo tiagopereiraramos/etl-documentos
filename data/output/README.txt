@@ -1,0 +1,1 @@
+Resultados da extração serão armazenados aqui.

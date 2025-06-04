@@ -1,0 +1,71 @@
+{
+  "session_id": "20250514133832",
+  "start_time": "2025-05-14T13:38:32.883497",
+  "documents": [
+    {
+      "document_id": "9a81c2",
+      "timestamp": "2025-05-14T13:39:03.022302",
+      "model": "prebuilt-layout",
+      "pages": 1,
+      "size_kb": 444.01,
+      "success": true,
+      "estimated_cost": 0.05,
+      "session_id": "20250514133832",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    },
+    {
+      "document_id": "c74977",
+      "timestamp": "2025-05-14T13:40:11.847025",
+      "model": "prebuilt-layout",
+      "pages": 1,
+      "size_kb": 412.53,
+      "success": true,
+      "estimated_cost": 0.05,
+      "session_id": "20250514133832",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    },
+    {
+      "document_id": "c74977",
+      "timestamp": "2025-05-14T13:40:19.000846",
+      "model": "prebuilt-layout",
+      "pages": 4,
+      "size_kb": 412.53,
+      "success": true,
+      "estimated_cost": 0.2,
+      "session_id": "20250514133832",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    },
+    {
+      "document_id": "8c6138",
+      "timestamp": "2025-05-14T13:51:40.712818",
+      "model": "prebuilt-layout",
+      "pages": 1,
+      "size_kb": 284.03,
+      "success": true,
+      "estimated_cost": 0.05,
+      "session_id": "20250514133832",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    },
+    {
+      "document_id": "70d3b4",
+      "timestamp": "2025-05-14T13:52:58.479611",
+      "model": "prebuilt-layout",
+      "pages": 1,
+      "size_kb": 412.53,
+      "success": true,
+      "estimated_cost": 0.05,
+      "session_id": "20250514133832",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    }
+  ]
+}

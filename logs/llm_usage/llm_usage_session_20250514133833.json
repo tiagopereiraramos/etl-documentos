@@ -1,0 +1,111 @@
+{
+  "session_id": "20250514133833",
+  "start_time": "2025-05-14T13:38:33.033624",
+  "calls": [
+    {
+      "call_id": "4c84a5cd",
+      "timestamp": "2025-05-14T13:39:10.911579",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1003,
+      "output_tokens": 3,
+      "total_tokens": 1006,
+      "success": true,
+      "estimated_cost": 0.0303,
+      "session_id": "20250514133833",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 1.151
+      }
+    },
+    {
+      "call_id": "0d830321",
+      "timestamp": "2025-05-14T13:40:20.129163",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1364,
+      "output_tokens": 5,
+      "total_tokens": 1369,
+      "success": true,
+      "estimated_cost": 0.0412,
+      "session_id": "20250514133833",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 1.123
+      }
+    },
+    {
+      "call_id": "bdcbab69",
+      "timestamp": "2025-05-14T13:41:41.214149",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1304,
+      "output_tokens": 8,
+      "total_tokens": 1312,
+      "success": true,
+      "estimated_cost": 0.0396,
+      "session_id": "20250514133833",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 3.649
+      }
+    },
+    {
+      "call_id": "8fc430b3",
+      "timestamp": "2025-05-14T13:42:14.529169",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1291,
+      "output_tokens": 8,
+      "total_tokens": 1299,
+      "success": true,
+      "estimated_cost": 0.0392,
+      "session_id": "20250514133833",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 0.869
+      }
+    },
+    {
+      "call_id": "567f59ef",
+      "timestamp": "2025-05-14T13:43:17.977620",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1255,
+      "output_tokens": 5,
+      "total_tokens": 1260,
+      "success": true,
+      "estimated_cost": 0.0379,
+      "session_id": "20250514133833",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 0.958
+      }
+    },
+    {
+      "call_id": "a7792ec8",
+      "timestamp": "2025-05-14T13:51:47.010164",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1315,
+      "output_tokens": 3,
+      "total_tokens": 1318,
+      "success": true,
+      "estimated_cost": 0.0396,
+      "session_id": "20250514133833",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 1.063
+      }
+    },
+    {
+      "call_id": "922cdfde",
+      "timestamp": "2025-05-14T13:53:06.920782",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1364,
+      "output_tokens": 5,
+      "total_tokens": 1369,
+      "success": true,
+      "estimated_cost": 0.0412,
+      "session_id": "20250514133833",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 0.982
+      }
+    }
+  ]
+}

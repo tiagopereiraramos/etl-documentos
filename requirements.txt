@@ -1,0 +1,26 @@
+# Core packages
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+aiofiles
+pydantic
+
+# OCR and document processing
+docling
+pillow
+
+# LangChain and LLM
+langchain
+langchain-openai
+openai  # Atualizado para ser compatível com langchain-openai
+
+# Vector stores
+faiss-cpu
+
+# Logging
+loguru
+
+# Utilities
+tenacity
+pytest

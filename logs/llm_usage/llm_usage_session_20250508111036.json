@@ -1,0 +1,36 @@
+{
+  "session_id": "20250508111036",
+  "start_time": "2025-05-08T11:10:36.523484",
+  "calls": [
+    {
+      "call_id": "a717887a",
+      "timestamp": "2025-05-08T11:12:26.455859",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1078,
+      "output_tokens": 3,
+      "total_tokens": 1081,
+      "success": true,
+      "estimated_cost": 0.0325,
+      "session_id": "20250508111036",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 1.797
+      }
+    },
+    {
+      "call_id": "da6bb59c",
+      "timestamp": "2025-05-08T11:14:57.486120",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1107,
+      "output_tokens": 4,
+      "total_tokens": 1111,
+      "success": true,
+      "estimated_cost": 0.0335,
+      "session_id": "20250508111036",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 0.78
+      }
+    }
+  ]
+}

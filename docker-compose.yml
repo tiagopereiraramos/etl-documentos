@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./vector_store_db:/app/vector_store_db
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    restart: unless-stopped
+
+volumes:
+  vector_store_db:
+  logs:

@@ -1,0 +1,20 @@
+{
+  "session_id": "20250513211652",
+  "start_time": "2025-05-13T21:16:52.522414",
+  "documents": [
+    {
+      "document_id": "dfcc58",
+      "timestamp": "2025-05-13T21:18:24.820108",
+      "model": "prebuilt-read",
+      "pages": 2,
+      "size_kb": 516.98,
+      "success": true,
+      "estimated_cost": 0.07,
+      "session_id": "20250513211652",
+      "metadata": {
+        "char_count": 1889,
+        "processing_time": 6.256
+      }
+    }
+  ]
+}

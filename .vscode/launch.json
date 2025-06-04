@@ -1,0 +1,81 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Classificação e Extração",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_document_extraction.py",
+            "args": [
+                "${command:pickFile}",
+                "--output",
+                "${workspaceFolder}/debug_output.json"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "name": "Debug Nota Fiscal",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_document_extraction.py",
+            "args": [
+                "${workspaceFolder}/data/input_docs/nota_fiscal.pdf",
+                "--output",
+                "${workspaceFolder}/debug_nfse.json",
+                "--force-type",
+                "Nota Fiscal de Serviços Eletrônica"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "name": "Debug OCR Apenas",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_document_extraction.py",
+            "args": [
+                "${command:pickFile}",
+                "--text-only",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "name": "Debug API",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "main:app",
+                "--reload",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "8000"
+            ],
+            "jinja": true,
+            "justMyCode": false,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

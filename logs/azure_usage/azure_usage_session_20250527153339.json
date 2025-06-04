@@ -1,0 +1,19 @@
+{
+  "session_id": "20250527153339",
+  "start_time": "2025-05-27T15:33:39.120791",
+  "requests": [
+    {
+      "document_id": "ea25d0",
+      "timestamp": "2025-05-27T15:44:26.024355",
+      "model": "prebuilt-layout",
+      "pages": 1,
+      "size_mb": 0.28,
+      "success": true,
+      "estimated_cost": 0.005,
+      "session_id": "20250527153339",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    }
+  ]
+}

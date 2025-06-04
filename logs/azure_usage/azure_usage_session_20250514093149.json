@@ -1,0 +1,45 @@
+{
+  "session_id": "20250514093149",
+  "start_time": "2025-05-14T09:31:49.350246",
+  "documents": [
+    {
+      "document_id": "d1c5e4",
+      "timestamp": "2025-05-14T09:35:29.866123",
+      "model": "prebuilt-layout",
+      "pages": 1,
+      "size_kb": 2957.11,
+      "success": true,
+      "estimated_cost": 0.05,
+      "session_id": "20250514093149",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    },
+    {
+      "document_id": "d1c5e4",
+      "timestamp": "2025-05-14T09:35:41.203506",
+      "model": "prebuilt-layout",
+      "pages": 8,
+      "size_kb": 2957.11,
+      "success": true,
+      "estimated_cost": 0.4,
+      "session_id": "20250514093149",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    },
+    {
+      "document_id": "c3d1e2",
+      "timestamp": "2025-05-14T09:44:34.318271",
+      "model": "prebuilt-layout",
+      "pages": 1,
+      "size_kb": 284.03,
+      "success": true,
+      "estimated_cost": 0.05,
+      "session_id": "20250514093149",
+      "metadata": {
+        "operation": "document_intelligence"
+      }
+    }
+  ]
+}

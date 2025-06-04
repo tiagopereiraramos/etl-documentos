@@ -1,0 +1,23 @@
+{
+  "session_id": "20250514145917",
+  "start_time": "2025-05-14T14:59:17.085941",
+  "calls": [
+    {
+      "call_id": "c55df8f3",
+      "timestamp": "2025-05-14T15:00:17.519348",
+      "model": "gpt-4.1-mini",
+      "input_tokens": 1003,
+      "output_tokens": 3,
+      "total_tokens": 1006,
+      "success": true,
+      "estimated_cost": 0.0303,
+      "session_id": "20250514145917",
+      "metadata": {
+        "operation": "document_classification",
+        "processing_time": 0.775,
+        "doc_id": "1a14f1",
+        "doc_name": "documento-1a14f1"
+      }
+    }
+  ]
+}

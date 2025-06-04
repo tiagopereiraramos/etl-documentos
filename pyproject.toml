@@ -1,0 +1,22 @@
+[project]
+name = "etl-documentos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "azure-ai-documentintelligence>=1.0.2",
+    "azure-identity>=1.23.0",
+    "docling>=2.15.1",
+    "faiss-cpu>=1.11.0",
+    "fastapi>=0.115.12",
+    "langchain>=0.3.24",
+    "langchain-community>=0.3.23",
+    "langchain-openai>=0.3.16",
+    "loguru>=0.7.3",
+    "pikepdf>=9.7.0",
+    "pymongo>=4.13.0",
+    "pytesseract>=0.3.13",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.34.2",
+]

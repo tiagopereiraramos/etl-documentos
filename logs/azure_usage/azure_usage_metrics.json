@@ -1,0 +1,30 @@
+{
+  "total_requests": 1,
+  "total_pages": 33,
+  "total_size_mb": 0.27736949920654297,
+  "success_requests": 1,
+  "failed_requests": 0,
+  "models_used": {
+    "read": {
+      "count": 3,
+      "pages": 12
+    },
+    "layout": {
+      "count": 10,
+      "pages": 20
+    },
+    "prebuilt-layout": {
+      "count": 1,
+      "pages": 1,
+      "size_mb": 0.27736949920654297
+    }
+  },
+  "estimated_cost": 1.425,
+  "requests_log": "1 solicita\u00e7\u00f5es",
+  "last_update": "2025-05-27T15:44:26.024595",
+  "total_calls": 13,
+  "total_bytes": 13159959,
+  "success_calls": 13,
+  "failed_calls": 0,
+  "documents_processed": "5 documentos"
+}
