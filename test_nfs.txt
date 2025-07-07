@@ -1,0 +1,9 @@
+Nota Fiscal de Serviços Eletrônica
+
+Prestador: ACME LTDA
+CNPJ: 12.345.678/0001-95
+Tomador: João Silva
+CPF: 123.456.789-00
+Valor dos Serviços: R$ 1.500,00
+ISS: R$ 75,00
+Data: 15/06/2024

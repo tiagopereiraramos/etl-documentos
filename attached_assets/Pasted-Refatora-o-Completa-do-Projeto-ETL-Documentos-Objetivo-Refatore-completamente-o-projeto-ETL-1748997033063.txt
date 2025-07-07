@@ -1,0 +1,89 @@
+Refatoração Completa do Projeto ETL Documentos
+
+**Objetivo:**  
+Refatore completamente o projeto ETL DOCUMENTOS, aplicando as melhores práticas de engenharia de software, para criar uma API moderna, robusta, performática e de fácil manutenção. O projeto deve ser capaz de receber documentos (imagem, texto, PDF, etc), extrair e transformar o seu conteúdo em Markdown, classificar e qualificar a extração, escalando para múltiplos serviços de extração se necessário, classificar o documento via LLM, extrair dados qualificados e registrar todas as operações, métricas e rastreabilidade detalhada em banco de dados.
+
+---
+
+## Requisitos técnicos e funcionais
+
+1. **API REST**
+   - Desenvolver API em Python com FastAPI.
+   - Documentação automática via OpenAPI.
+   - Toda autenticação via token de cliente (JWT ou OAuth2).
+   - Suporte a uploads de imagem, texto, PDF e outros formatos comuns.
+
+2. **Extração e Conversão**
+   - Utilizar Docling para extrair e transformar documentos em Markdown.
+   - Implementar um sistema de scoring para avaliar a qualidade da extração (nota parametrizável).
+   - Se a nota for baixa (threshold parametrizável), acionar serviço externo (Azure Document Intelligence, parametrizável, e permitir fácil extensão para outros como AWS Textract).
+   - Modularizar a integração de múltiplos providers de extração.
+    - Manter bancos vetoriais para auxiliar e ‘treinar’ os modelos com mais precisão quanto para classificação quanto para extração qualificada.  
+
+3. **Classificação e Extração via LLM**
+   - Submeter o documento extraído a um prompt de classificação, utilizando um “cartilha” (lista) de tipos de documento e descrições.
+   - Permitir escolha da LLM (parametrizável).
+   - Se classificado, submeter a um novo prompt para extração de dados qualificados, conforme prompts pré-definidos, com resposta JSON validada.
+   - Toda parametrização de prompts, provedores e thresholds deve ser via configuração externa (ex: .env, YAML, etc).
+
+4. **Persistência, Logs e Métricas**
+   - Banco de dados (SQLite ou PostgreSQL, parametrizável).
+   - Estrutura para rastrear:  
+     - Quem fez a requisição (token do cliente).
+     - Logs detalhados de cada etapa e interação.
+     - Número de prompts usados, valores gastos (custos)Parametrizaveis por modelo utilizado, status de cada documento, histórico de extrações.
+     - Métricas de desempenho, uso e custos.
+   - Logs estruturados, com rastreabilidade de todos os fluxos e correlação entre operações.
+
+5. **Padrões de Código**
+   - Código em português BR.
+   - Uso de tipagem forte, dataclasses, Pydantic models.
+   - Aplicação de princípios SOLID, Clean Code, Design Patterns (Factory, Strategy, Adapter, etc quando aplicável).
+   - Estrutura modular, com separação clara de camadas (API, Serviços, Infra, Models, etc).
+   - Testes automatizados (Pytest) para todas as camadas.inclusive para as apis, sem precisar usar o swagger
+   - Código limpo, simples, comentado e de fácil manutenção.
+
+6. **Facilidade de Extensão**
+   - Permitir fácil inclusão de novos provedores de extração ou LLMs.
+   - Toda integração externa deve ser desacoplada por interfaces/protocolos.
+
+---
+
+## Instruções para Refatoração
+
+- Analise TODO O REPOSITÓRIO e REESCREVA DO ZERO, mantendo apenas o que for relevante, atual e aderente ao escopo.
+- Elimine código morto, duplicado ou práticas obsoletas.
+- Entregue a nova estrutura de pastas, arquivos e módulos, sugerindo uma arquitetura escalável.
+- Forneça exemplos de configuração (ex: .env.example, config.yaml), prompts de classificação/extrator, e exemplos de requests/responses.
+- Garanta rastreabilidade ponta-a-ponta, segurança, modularidade e testabilidade.
+- Toda comunicação, comentários e documentação DEVEM estar em português BR.
+
+---
+
+## Exemplos de Nomes de Módulos e Pastas
+
+- `app/api/`
+- `app/services/`
+- `app/models/`
+- `app/providers/`
+- `app/database/`
+- `app/utils/`
+- `tests/`
+- `config/`
+- `logs/`
+
+---
+
+## Observações Finais
+
+- Utilize o que há de mais moderno no ecossistema Python, mas sem complexidade desnecessária.
+- Priorize performance, escalabilidade e facilidade de manutenção.
+- Proponha melhorias de arquitetura e organização, sempre explicando as decisões tomadas nos comentários do código ou documentação.
+
+---
+
+## Resuma a refatoração em um README detalhado em português BR, com instruções de uso, configuração e exemplos de fluxo.
+
+---
+
+**REFATORE TODO O PROJETO CONFORME AS INSTRUÇÕES ACIMA.**
