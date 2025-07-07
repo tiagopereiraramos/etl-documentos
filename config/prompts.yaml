@@ -1,0 +1,658 @@
+
+# Configuração Completa de Prompts do Sistema ETL Documentos
+
+classificacao:
+  prompt_base: |
+    Você é um especialista em classificação de documentos empresariais e fiscais brasileiros.
+    
+    Analise o texto fornecido e classifique-o em um dos seguintes tipos:
+    
+    TIPOS SUPORTADOS:
+    {tipos_documentos}
+    
+    CARACTERÍSTICAS DOS DOCUMENTOS:
+    {descricoes_tipos}
+    
+    TEXTO DO DOCUMENTO:
+    {texto_documento}
+    
+    Responda APENAS com o nome exato do tipo de documento da lista acima.
+    Se não conseguir classificar com confiança, responda "Documento Não Classificado".
+
+  prompt_adaptativo: |
+    Você é um especialista em classificação de documentos empresariais e fiscais brasileiros.
+    
+    Analise o texto fornecido e classifique-o em um dos seguintes tipos:
+    
+    TIPOS SUPORTADOS:
+    {tipos_documentos}
+    
+    CARACTERÍSTICAS DOS DOCUMENTOS:
+    {descricoes_tipos}
+    
+    EXEMPLOS DE DOCUMENTOS SIMILARES JÁ CLASSIFICADOS:
+    {exemplos}
+    
+    TEXTO DO DOCUMENTO:
+    {texto_documento}
+    
+    Responda APENAS com o nome exato do tipo de documento da lista acima.
+
+  tipos_documentos:
+    - "Comprovante Bancário"
+    - "CEI da Obra" 
+    - "Inscrição Municipal"
+    - "Termo de Responsabilidade"
+    - "Alvará Municipal"
+    - "Contrato Social"
+    - "Cartão CNPJ"
+    - "CNH"
+    - "Fatura Telefônica"
+    - "Nota Fiscal de Serviços Eletrônica"
+
+  descricoes_tipos:
+    "Comprovante Bancário": "contém dados de transferência, depósito ou pagamento bancário, valores, datas, códigos de autenticação e instituições financeiras."
+    "CEI da Obra": "documento do INSS que identifica uma construção perante a Receita Federal, contendo número de matrícula CEI, endereço da obra, dados do proprietário (CNPJ/CPF), responsável técnico, número ART e informações cadastrais para regularização e recolhimento de tributos."
+    "Inscrição Municipal": "documento emitido pela prefeitura com número de inscrição municipal de uma empresa, dados cadastrais e atividades econômicas permitidas no município."
+    "Termo de Responsabilidade": "documento formal onde pessoa ou entidade assume responsabilidade por determinada ação, bem ou serviço, contendo identificação do responsável, descrição das obrigações assumidas, condições para cumprimento e possíveis consequências legais."
+    "Alvará Municipal": "licença oficial emitida por autoridades municipais que autoriza o funcionamento legal de empresas e atividades específicas, contendo nome da empresa, registro, atividades permitidas, datas de emissão e validade, e autoridade emissora."
+    "Cartão CNPJ": "comprovante de inscrição e situação cadastral emitido pela Receita Federal que atesta a existência legal da empresa, contendo número do CNPJ, razão social, nome fantasia, data de abertura, código CNAE das atividades econômicas, natureza jurídica, endereço e situação cadastral."
+    "Contrato Social": "documento legal constitutivo que estabelece as regras da sociedade empresária, detalhando razão social, nome fantasia, CNPJ (em alterações), endereço da sede, objeto social, capital social, quotas e dados dos sócios, forma de administração e representação. Difere do Cartão CNPJ por ser o acordo entre os sócios, não apenas um comprovante cadastral."
+    "Fatura Telefônica": "conta de serviços telefônicos com detalhamento de ligações, mensagens, dados consumidos, valores e período de cobrança."
+    "Nota Fiscal de Serviços Eletrônica": "documento fiscal que comprova prestação de serviços, com valores, impostos (como ISS), dados do prestador e tomador."
+    "CNH": "Carteira Nacional de Habilitação, documento de habilitação de motorista, com dados pessoais, foto, categoria e validade."
+
+extracao:
+  prompt_base: |
+    Você é um especialista em extração de dados de documentos brasileiros.
+    
+    Extraia APENAS as informações que estão claramente presentes no texto do documento.
+    NÃO invente ou deduza informações que não estão explícitas.
+    
+    Tipo de documento: {tipo_documento}
+    
+    Campos a extrair (extraia apenas os que estão presentes):
+    {schema}
+    
+    Documento:
+    {texto_documento}
+    
+    Retorne um JSON válido com apenas os campos encontrados.
+    Se um campo não estiver presente, NÃO o inclua no JSON.
+    Use exatamente os nomes de campo listados acima.
+
+  prompt_adaptativo: |
+    Você é um especialista em extração de dados de documentos brasileiros.
+    
+    Extraia APENAS as informações que estão claramente presentes no texto do documento.
+    NÃO invente ou deduza informações que não estão explícitas.
+    
+    Tipo de documento: {tipo_documento}
+    
+    EXEMPLOS DE EXTRAÇÕES SIMILARES BEM-SUCEDIDAS:
+    {exemplos}
+    
+    Campos a extrair (extraia apenas os que estão presentes):
+    {schema}
+    
+    Documento:
+    {texto_documento}
+    
+    Retorne um JSON válido com apenas os campos encontrados.
+    Se um campo não estiver presente, NÃO o inclua no JSON.
+    Use exatamente os nomes de campo listados acima.
+
+  tipos:
+    "Comprovante Bancário":
+      prompt: |
+        Você é um agente que extrai informações de documentos de **Comprovante Bancário**. 
+        Extraia os seguintes campos formatando no encoding UTF-8:
+
+        - Razão Social: Nome oficial da empresa ou pessoa registrada para fins legais e fiscais.
+          Pode aparecer como "beneficiário", "favorecido", "cliente", "titular" ou similar.
+
+        - Agência: Código numérico que identifica a agência bancária onde a conta está registrada.
+          Geralmente possui de 4 a 5 dígitos, podendo incluir um dígito verificador separado por hífen.
+          Exemplos: "1234", "1234-5", "00123".
+
+        - Conta: Número único que identifica a conta do cliente na instituição financeira.
+          Geralmente possui formato numérico, podendo incluir um dígito verificador separado por hífen.
+          Exemplos: "12345-6", "123456-7", "00012345-X".
+
+        - Nome do Banco: Nome da instituição financeira onde a conta bancária está registrada.
+          Exemplos: "Banco do Brasil", "Caixa Econômica Federal", "Itaú", "Bradesco", "Santander".
+
+        - Código do Banco: Código numérico de 3 dígitos que identifica a instituição financeira no sistema bancário.
+          Exemplos: "001" (Banco do Brasil), "104" (Caixa), "341" (Itaú).
+          Se não estiver explícito no documento, tente deduzir com base no nome do banco.
+
+        - Valor: Valor monetário da transação bancária em formato brasileiro (R$ X.XXX,XX).
+          Procure por termos como "valor", "importância", "quantia", "total" seguidos do valor.
+
+        - Data da Transação: Data em que a operação foi realizada (formato DD/MM/AAAA).
+          Pode aparecer como "data da operação", "data do pagamento", "data de processamento".
+
+        - Tipo de Operação: Classificação da operação bancária realizada.
+          Exemplos: "Transferência", "Depósito", "Pagamento", "TED", "DOC", "PIX".
+
+        - Número do Comprovante: Código único do comprovante ou número de autenticação.
+          Procure por termos como "autenticação", "comprovante nº", "número", "código".
+
+        - CNPJ/CPF: Documento de identificação do titular da conta (com ou sem formatação).
+          Deve estar relacionado à pessoa ou empresa que realizou ou recebeu a transação.
+
+        Caso um campo não esteja presente, retorne "Não foi possível localizar este campo".
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda no seguinte formato JSON:
+        {
+          "tipo_documento": "Comprovante Bancário",
+          "razao_social": "...",
+          "agencia": "...",
+          "conta": "...",
+          "nome_banco": "...",
+          "codigo_banco": "...",
+          "valor": "...",
+          "data_transacao": "...",
+          "tipo_operacao": "...",
+          "numero_comprovante": "...",
+          "cnpj_cpf": "..."
+        }
+
+      campos_obrigatorios:
+        - razao_social
+        - valor
+        - data_transacao
+        - nome_banco
+
+    "CEI da Obra":
+      prompt: |
+        Você é um agente que extrai informações de documentos de **CEI da Obra**. 
+        Extraia os seguintes campos formatando no encoding UTF-8:
+
+        - Razão Social do cliente: Nome oficial da empresa registrado para fins legais e fiscais.
+
+        - CNPJ: Cadastro Nacional da Pessoa Jurídica com 14 dígitos numéricos, com ou sem formatação.
+          Exemplos válidos: '12.345.678/0001-95' ou '12345678000195'.
+          O CNPJ deve estar diretamente vinculado à Razão Social da empresa e não ao da prefeitura ou outro órgão emissor.
+          Priorize a extração do CNPJ que aparece próximo à Razão Social no documento.
+
+        - Endereço completo: Deve incluir rua, número, complemento (se houver), bairro, cidade, estado (UF) e CEP.
+          Exemplo: 'Rua das Flores, 123, Apto 45, Bairro Centro, São Paulo, SP, CEP: 01234-567'.
+
+        - Número da matrícula CEI: Código único de identificação da obra perante o INSS.
+          Geralmente possui formato numérico e é precedido por termos como "Matrícula CEI", "Matrícula", "CEI nº".
+
+        - Data de registro: Data em que o cadastro CEI foi efetuado junto ao INSS.
+          Deve ser fornecida no formato "DD/MM/AAAA" quando disponível.
+
+        Caso um campo não esteja presente no documento, retorne "Não foi possível localizar este campo".
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda no seguinte formato JSON:
+        {
+          "tipo_documento": "CEI da Obra",
+          "razao_social": "...",
+          "cnpj": "...",
+          "endereco_completo": "...",
+          "numero_cei": "...",
+          "data_registro": "..."
+        }
+
+      campos_obrigatorios:
+        - razao_social
+        - cnpj
+        - numero_cei
+
+    "CNH":
+      prompt: |
+        Você é um agente especializado na extração de informações de documentos oficiais do tipo **CNH** (Carteira Nacional de Habilitação — CNH física ou CNH-e).
+
+        Extraia com precisão os seguintes campos, mesmo que estejam fora de ordem ou formatados de maneira incomum. Os dados devem estar em codificação UTF-8.
+
+        - Nome completo do condutor
+        - Número de registro/CNH (11 dígitos numéricos)
+        - CPF do condutor (com ou sem formatação)
+        - Data de nascimento (formato DD/MM/AAAA)
+        - Data da primeira habilitação (formato DD/MM/AAAA)
+        - Data de validade da CNH (formato DD/MM/AAAA)
+        - Categoria da CNH (ex: A, B, AB, C, D, E, ACC)
+        - Observações ou restrições (descrições ou códigos, se houver)
+        - UF (estado) emissor da CNH
+        - Local de nascimento (cidade e UF)
+        - Filiação (nome dos pais ou responsáveis legais)
+        - RG (número do documento de identidade, se disponível)
+
+        Se algum campo não estiver presente ou legível, retorne exatamente: `"Não foi possível localizar este campo"`.
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda exclusivamente no seguinte formato JSON:
+        {
+          "tipo_documento": "CNH",
+          "nome_completo": "...",
+          "numero_cnh": "...",
+          "cpf": "...",
+          "data_nascimento": "...",
+          "data_primeira_habilitacao": "...",
+          "data_validade": "...",
+          "categoria": "...",
+          "observacoes": "...",
+          "uf_emissor": "...",
+          "local_nascimento": "...",
+          "filiacao": "...",
+          "rg": "..."
+        }
+
+      campos_obrigatorios:
+        - nome_completo
+        - numero_cnh
+        - cpf
+        - categoria
+
+    "Contrato Social":
+      prompt: |
+        Você é um agente que extrai informações de documentos de **Contrato Social**. 
+        Extraia os seguintes campos formatando no encoding UTF-8:
+
+        - Razão Social: Nome oficial completo da empresa conforme registrado na Junta Comercial.
+
+        - Nome Fantasia: Nome comercial ou fantasia da empresa (se mencionado).
+
+        - CNPJ: Cadastro Nacional da Pessoa Jurídica (formato XX.XXX.XXX/XXXX-XX ou apenas números).
+
+        - Endereço da Sede: Endereço completo da sede social da empresa.
+          Deve incluir logradouro, número, complemento, bairro, cidade, estado e CEP.
+
+        - Objeto Social: Descrição das atividades econômicas principais da empresa.
+          Pode incluir códigos CNAE e descrições detalhadas das atividades permitidas.
+
+        - Capital Social: Valor do capital social da empresa em moeda corrente.
+          Exemplo: "R$ 50.000,00" ou similar.
+
+        - Data de Constituição: Data de registro/constituição da empresa.
+
+        - Dados dos Sócios: Informações sobre os sócios (nomes, CPFs, quotas).
+          Liste cada sócio com sua participação societária.
+
+        - Forma de Administração: Como a empresa é administrada (individual, conjunta, etc.).
+
+        - Junta Comercial: Nome da Junta Comercial onde foi registrado.
+
+        - Número do Registro: Número de registro na Junta Comercial (NIRE).
+
+        Caso um campo não esteja presente, retorne "Não foi possível localizar este campo".
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda no seguinte formato JSON:
+        {
+          "tipo_documento": "Contrato Social",
+          "razao_social": "...",
+          "nome_fantasia": "...",
+          "cnpj": "...",
+          "endereco_sede": "...",
+          "objeto_social": "...",
+          "capital_social": "...",
+          "data_constituicao": "...",
+          "dados_socios": "...",
+          "forma_administracao": "...",
+          "junta_comercial": "...",
+          "numero_registro": "..."
+        }
+
+      campos_obrigatorios:
+        - razao_social
+        - cnpj
+        - objeto_social
+        - capital_social
+
+    "Cartão CNPJ":
+      prompt: |
+        Você é um agente que extrai informações de documentos de **Cartão CNPJ**. 
+        Extraia os seguintes campos formatando no encoding UTF-8:
+
+        - Razão Social: Nome oficial completo da empresa conforme registrado na Receita Federal.
+
+        - Nome Fantasia: Nome comercial ou fantasia da empresa (se houver).
+
+        - CNPJ: Cadastro Nacional da Pessoa Jurídica (formato XX.XXX.XXX/XXXX-XX).
+
+        - Data de Abertura: Data de inscrição da empresa na Receita Federal.
+
+        - Natureza Jurídica: Código e descrição da natureza jurídica da empresa.
+
+        - Atividade Econômica Principal: Código CNAE e descrição da atividade principal.
+
+        - Atividades Econômicas Secundárias: Códigos CNAE e descrições das atividades secundárias (se houver).
+
+        - Endereço: Endereço completo da empresa.
+          Deve incluir logradouro, número, complemento, bairro, cidade, estado e CEP.
+
+        - Situação Cadastral: Status atual da empresa (Ativa, Suspensa, Inapta, etc.).
+
+        - Data da Situação Cadastral: Data da última alteração da situação cadastral.
+
+        - Motivo da Situação Cadastral: Razão do status atual (se aplicável).
+
+        - Ente Federativo Responsável: Informação sobre responsabilidade (se aplicável).
+
+        Caso um campo não esteja presente, retorne "Não foi possível localizar este campo".
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda no seguinte formato JSON:
+        {
+          "tipo_documento": "Cartão CNPJ",
+          "razao_social": "...",
+          "nome_fantasia": "...",
+          "cnpj": "...",
+          "data_abertura": "...",
+          "natureza_juridica": "...",
+          "atividade_principal": "...",
+          "atividades_secundarias": "...",
+          "endereco": "...",
+          "situacao_cadastral": "...",
+          "data_situacao": "...",
+          "motivo_situacao": "...",
+          "ente_federativo": "..."
+        }
+
+      campos_obrigatorios:
+        - razao_social
+        - cnpj
+        - situacao_cadastral
+        - atividade_principal
+
+    "Inscrição Municipal":
+      prompt: |
+        Você é um agente que extrai informações de documentos de **Inscrição Municipal**. 
+        Extraia os seguintes campos formatando no encoding UTF-8:
+
+        - Razão Social: Nome oficial da empresa conforme registrado na prefeitura.
+
+        - Nome Fantasia: Nome comercial ou fantasia da empresa (se houver).
+
+        - CNPJ: Cadastro Nacional da Pessoa Jurídica.
+
+        - Inscrição Municipal: Número de inscrição municipal da empresa.
+
+        - Endereço do Estabelecimento: Endereço completo onde a empresa funciona.
+
+        - Atividades Permitidas: Lista das atividades econômicas autorizadas pelo município.
+
+        - Data de Inscrição: Data de registro na prefeitura.
+
+        - Situação: Status da inscrição (Ativa, Suspensa, Cancelada, etc.).
+
+        - Município: Nome do município emissor.
+
+        - Código de Atividade: Códigos municipais das atividades (se houver).
+
+        - Observações: Observações ou restrições especiais.
+
+        Caso um campo não esteja presente, retorne "Não foi possível localizar este campo".
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda no seguinte formato JSON:
+        {
+          "tipo_documento": "Inscrição Municipal",
+          "razao_social": "...",
+          "nome_fantasia": "...",
+          "cnpj": "...",
+          "inscricao_municipal": "...",
+          "endereco_estabelecimento": "...",
+          "atividades_permitidas": "...",
+          "data_inscricao": "...",
+          "situacao": "...",
+          "municipio": "...",
+          "codigo_atividade": "...",
+          "observacoes": "..."
+        }
+
+      campos_obrigatorios:
+        - razao_social
+        - inscricao_municipal
+        - municipio
+
+    "Termo de Responsabilidade":
+      prompt: |
+        Você é um agente que extrai informações de documentos de **Termo de Responsabilidade**. 
+        Extraia os seguintes campos formatando no encoding UTF-8:
+
+        - Identificação do Responsável: Nome completo da pessoa ou empresa assumindo responsabilidade.
+
+        - CPF/CNPJ do Responsável: Documento de identificação do responsável.
+
+        - Endereço do Responsável: Endereço completo do responsável.
+
+        - Objeto da Responsabilidade: Descrição detalhada do que está sendo assumido como responsabilidade.
+
+        - Prazo de Responsabilidade: Período pelo qual a responsabilidade é assumida.
+
+        - Data do Termo: Data de assinatura ou emissão do documento.
+
+        - Local de Assinatura: Cidade onde o termo foi assinado.
+
+        - Testemunhas: Nomes e documentos das testemunhas (se houver).
+
+        - Órgão Emissor: Instituição ou órgão que emitiu o termo.
+
+        - Consequências: Descrição das consequências em caso de descumprimento.
+
+        - Número do Termo: Número de registro ou protocolo do documento.
+
+        Caso um campo não esteja presente, retorne "Não foi possível localizar este campo".
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda no seguinte formato JSON:
+        {
+          "tipo_documento": "Termo de Responsabilidade",
+          "identificacao_responsavel": "...",
+          "cpf_cnpj_responsavel": "...",
+          "endereco_responsavel": "...",
+          "objeto_responsabilidade": "...",
+          "prazo_responsabilidade": "...",
+          "data_termo": "...",
+          "local_assinatura": "...",
+          "testemunhas": "...",
+          "orgao_emissor": "...",
+          "consequencias": "...",
+          "numero_termo": "..."
+        }
+
+      campos_obrigatorios:
+        - identificacao_responsavel
+        - objeto_responsabilidade
+        - data_termo
+
+    "Alvará Municipal":
+      prompt: |
+        Você é um agente que extrai informações de documentos de **Alvará Municipal**. 
+        Extraia os seguintes campos formatando no encoding UTF-8:
+
+        - Razão Social: Nome oficial da empresa beneficiária do alvará.
+
+        - CNPJ: Cadastro Nacional da Pessoa Jurídica da empresa.
+
+        - Número do Alvará: Número oficial do alvará emitido.
+
+        - Data de Emissão: Data de emissão do alvará.
+
+        - Data de Validade: Data de vencimento do alvará.
+
+        - Atividades Autorizadas: Lista das atividades permitidas pelo alvará.
+
+        - Endereço do Estabelecimento: Endereço onde as atividades são autorizadas.
+
+        - Município Emissor: Nome do município que emitiu o alvará.
+
+        - Órgão Emissor: Secretaria ou departamento responsável pela emissão.
+
+        - Inscrição Municipal: Número de inscrição municipal da empresa.
+
+        - Área Autorizada: Área em metros quadrados autorizada para funcionamento.
+
+        - Observações: Condições especiais ou restrições.
+
+        - Responsável Técnico: Nome do responsável técnico (se aplicável).
+
+        Caso um campo não esteja presente, retorne "Não foi possível localizar este campo".
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda no seguinte formato JSON:
+        {
+          "tipo_documento": "Alvará Municipal",
+          "razao_social": "...",
+          "cnpj": "...",
+          "numero_alvara": "...",
+          "data_emissao": "...",
+          "data_validade": "...",
+          "atividades_autorizadas": "...",
+          "endereco_estabelecimento": "...",
+          "municipio_emissor": "...",
+          "orgao_emissor": "...",
+          "inscricao_municipal": "...",
+          "area_autorizada": "...",
+          "observacoes": "...",
+          "responsavel_tecnico": "..."
+        }
+
+      campos_obrigatorios:
+        - razao_social
+        - numero_alvara
+        - data_emissao
+        - municipio_emissor
+
+    "Fatura Telefônica":
+      prompt: |
+        Você é um agente que extrai informações de documentos de **Fatura Telefônica**. 
+        Extraia os seguintes campos formatando no encoding UTF-8:
+
+        - Nome do cliente
+        - CPF/CNPJ do cliente (manter formato original do documento)
+        - Operadora de telefonia (ex: Vivo, Claro, Tim, Oi)
+        - Número da linha telefônica (com DDD)
+        - Número da fatura/conta
+        - Mês de referência da fatura
+        - Período de cobrança (data inicial e final)
+        - Valor total da fatura (em R$)
+        - Data de vencimento
+        - Código de barras (se disponível)
+        - Consumo detalhado (resumo de ligações, internet, serviços adicionais)
+
+        Caso um campo não esteja presente, retorne "Não foi possível localizar este campo".
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda no seguinte formato JSON:
+        {
+          "tipo_documento": "Fatura Telefônica",
+          "nome_cliente": "...",
+          "cpf_cnpj": "...",
+          "operadora": "...",
+          "numero_telefone": "...",
+          "numero_fatura": "...",
+          "mes_referencia": "...",
+          "periodo_cobranca": "...",
+          "valor_total": "...",
+          "data_vencimento": "...",
+          "codigo_barras": "...",
+          "consumo_detalhado": {
+            "ligacoes": "...",
+            "internet": "...",
+            "mensagens": "...",
+            "servicos_adicionais": "..."
+          }
+        }
+
+      campos_obrigatorios:
+        - nome_cliente
+        - operadora
+        - valor_total
+        - data_vencimento
+
+    "Nota Fiscal de Serviços Eletrônica":
+      prompt: |
+        Você é um agente que extrai informações de documentos de **Nota Fiscal de Serviços Eletrônica**. 
+        Extraia os seguintes campos formatando no encoding UTF-8:
+
+        - Número da Nota Fiscal: Número sequencial da nota fiscal.
+
+        - Data de Emissão: Data de emissão da nota fiscal.
+
+        - Prestador do Serviço: Dados completos da empresa prestadora.
+          Incluir: Razão Social, CNPJ, endereço, inscrição municipal.
+
+        - Tomador do Serviço: Dados completos do cliente/tomador.
+          Incluir: Nome/Razão Social, CPF/CNPJ, endereço.
+
+        - Discriminação dos Serviços: Descrição detalhada dos serviços prestados.
+
+        - Valor dos Serviços: Valor bruto dos serviços.
+
+        - Valor do ISS: Valor do Imposto Sobre Serviços.
+
+        - Alíquota do ISS: Percentual do ISS aplicado.
+
+        - Valor Líquido: Valor final após deduções.
+
+        - Código de Verificação: Código para verificação da autenticidade.
+
+        - Município: Município onde o serviço foi prestado.
+
+        - CNAE: Código da atividade econômica.
+
+        - Observações: Observações adicionais ou informações complementares.
+
+        Caso um campo não esteja presente, retorne "Não foi possível localizar este campo".
+
+        Texto do documento:
+        DOCUMENT_TEXT_PLACEHOLDER
+
+        Responda no seguinte formato JSON:
+        {
+          "tipo_documento": "Nota Fiscal de Serviços Eletrônica",
+          "numero_nota": "...",
+          "data_emissao": "...",
+          "prestador_servico": {
+            "razao_social": "...",
+            "cnpj": "...",
+            "endereco": "...",
+            "inscricao_municipal": "..."
+          },
+          "tomador_servico": {
+            "nome_razao_social": "...",
+            "cpf_cnpj": "...",
+            "endereco": "..."
+          },
+          "discriminacao_servicos": "...",
+          "valor_servicos": "...",
+          "valor_iss": "...",
+          "aliquota_iss": "...",
+          "valor_liquido": "...",
+          "codigo_verificacao": "...",
+          "municipio": "...",
+          "cnae": "...",
+          "observacoes": "..."
+        }
+
+      campos_obrigatorios:
+        - numero_nota
+        - data_emissao
+        - prestador_servico
+        - valor_servicos

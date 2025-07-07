@@ -1,0 +1,12 @@
+[server]
+port = 5000
+address = "localhost"
+headless = true
+enableCORS = false
+enableWebsocketCompression = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
