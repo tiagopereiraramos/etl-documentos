@@ -569,24 +569,24 @@ class DocumentProcessorService:
             self.logger.warning(
                 "⚠️ Usando fallback de dados básicos devido ao erro")
 
-            dados_basicos = {
-                "tipo_documento": tipo_documento,
-                "texto_analisado": len(texto),
-                "timestamp_extracao": datetime.utcnow().isoformat(),
+        dados_basicos = {
+            "tipo_documento": tipo_documento,
+            "texto_analisado": len(texto),
+            "timestamp_extracao": datetime.utcnow().isoformat(),
                 "status": "extraido_com_fallback",
                 "erro_extracao_completa": str(e)
-            }
+        }
 
-            return ResultadoExtracaoDados(
-                dados_extraidos=dados_basicos,
+        return ResultadoExtracaoDados(
+            dados_extraidos=dados_basicos,
                 confianca=0.3,  # Confiança baixa para fallback
-                metadados={
-                    "custo": 0.001,
-                    "tempo_processamento": 0.1,
+            metadados={
+                "custo": 0.001,
+                "tempo_processamento": 0.1,
                     "metodo": "fallback_basico",
                     "erro_original": str(e)
-                }
-            )
+            }
+        )
 
     async def _log_operacao(
         self,

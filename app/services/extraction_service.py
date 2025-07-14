@@ -705,7 +705,7 @@ class ServicoExtracaoUnificado:
             )
 
             # Usar APENAS prompt específico do YAML
-            logger.info(
+                logger.info(
                 f"🎯 Usando prompt ESPECÍFICO do YAML para {tipo_documento}")
 
             # Carregar prompt específico do YAML
