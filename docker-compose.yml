@@ -1,0 +1,36 @@
+services:
+  etl-app:
+    image: svcdockers/brflow-cas:1.0.2
+    container_name: etl-documentos-app
+    ports:
+      - "8000:8000"  # API
+      - "8501:8501"  # Streamlit
+    environment:
+      - PYTHONPATH=/app
+      - DATABASE_URL=sqlite:///./data/etl_documentos.db
+      - DOCLING_DEVICE=cpu
+      - PYTORCH_ENABLE_MPS_FALLBACK=1
+      - CUDA_VISIBLE_DEVICES=""
+      # Variáveis obrigatórias que devem ser definidas no ambiente ou .env
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - CLASSIFICATION_MODEL=${CLASSIFICATION_MODEL:-gpt-4o-mini}
+      - EXTRACTION_MODEL=${EXTRACTION_MODEL:-gpt-4o-mini}
+    volumes:
+      - etl_data:/app/data
+      - etl_logs:/app/logs
+      - etl_vector_store:/app/vector_store_db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "sh", "-c", "curl -f http://localhost:8000/docs && curl -f http://localhost:8501"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 90s
+
+volumes:
+  etl_data:
+    driver: local
+  etl_logs:
+    driver: local
+  etl_vector_store:
+    driver: local 
